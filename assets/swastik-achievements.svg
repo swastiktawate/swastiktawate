@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="135" viewBox="0 0 1200 135" role="img" aria-labelledby="achTitle achDesc">
+  <title id="achTitle">Swastik Tawate — Verified Achievements</title>
+  <desc id="achDesc">Verified honors including Syrus 7.0 Hackathon Finalist, ISTE-VESIT Ideathon Finalist, and Yukti Hackathon and Ideathon shortlist.</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="achBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D0B"/>
+      <stop offset="50%" stop-color="#0E1714"/>
+      <stop offset="100%" stop-color="#05261B"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="achCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121D18"/>
+      <stop offset="100%" stop-color="#0B1310"/>
+    </linearGradient>
+
+    <!-- Header Laser Gradient -->
+    <linearGradient id="achHeaderLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6EE7B7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Micro Grid Pattern -->
+    <pattern id="achGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Container Base & Grid -->
+  <rect width="1200" height="135" rx="14" fill="url(#achBg)"/>
+  <rect width="1200" height="135" rx="14" fill="url(#achGrid)"/>
+  <rect width="1200" height="135" rx="14" fill="none" stroke="#16382B" stroke-width="1.2"/>
+
+  <!-- Top Status Bar & Header -->
+  <g transform="translate(60, 22)">
+    <!-- Live Status Pill -->
+    <rect width="175" height="18" rx="9" fill="#0C1914" stroke="#1C4434" stroke-width="1"/>
+    <circle cx="10" cy="9" r="3" fill="#34D399">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="12" fill="#6EE7B7" font-family="'Segoe UI', sans-serif" font-size="8.5" font-weight="600" letter-spacing="1.5">VERIFIED HONORS</text>
+
+    <!-- Laser Divider Line -->
+    <path d="M 195 9 H 1080" stroke="#143628" stroke-width="1"/>
+    <path d="M 195 9 H 1080" stroke="url(#achHeaderLaser)" stroke-width="1.6" stroke-dasharray="140 745">
+      <animate attributeName="stroke-dashoffset" values="0;-885" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ==================== 3 SLEEK CARDS ==================== -->
+  <!-- Width: 344, Height: 76, Gap: 24, Start X: 60, Y: 44 -->
+
+  <!-- CARD 1: SYRUS 7.0 HACKATHON -->
+  <g transform="translate(60, 44)">
+    <rect width="344" height="76" rx="10" fill="url(#achCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <!-- Trophy Icon -->
+    <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.6" fill="none">
+      <path d="M -8 -12 H 8 V -4 C 8 2 4 6 0 6 C -4 6 -8 2 -8 -4 Z"/>
+      <path d="M -8 -9 H -12 C -14 -9 -14 -4 -12 -2 C -10 0 -8 0 -8 0"/>
+      <path d="M 8 -9 H 12 C 14 -9 14 -4 12 -2 C 10 0 8 0 8 0"/>
+      <path d="M 0 6 V 11 M -6 11 H 6"/>
+      <circle cx="0" cy="-3" r="1.5" fill="#A7F3D0"/>
+    </g>
+    <!-- Card Text -->
+    <text x="58" y="24" fill="#34D399" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.5">FINALIST</text>
+    <text x="58" y="44" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700">Syrus 7.0 Hackathon</text>
+    <text x="58" y="62" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Competitive multi-round hackathon</text>
+  </g>
+
+  <!-- CARD 2: ISTE-VESIT IDEATHON -->
+  <g transform="translate(428, 44)">
+    <rect width="344" height="76" rx="10" fill="url(#achCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <!-- Lightbulb / Idea Icon -->
+    <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.6" fill="none">
+      <path d="M -6 -4 C -6 -8 -3 -12 0 -12 C 3 -12 6 -8 6 -4 C 6 -1 4 2 3 4 H -3 C -4 2 -6 -1 -6 -4 Z"/>
+      <path d="M -3 7 H 3 M -2 10 H 2"/>
+      <line x1="0" y1="-8" x2="0" y2="-4" stroke="#A7F3D0"/>
+    </g>
+    <!-- Card Text -->
+    <text x="58" y="24" fill="#34D399" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.5">FINALIST</text>
+    <text x="58" y="44" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700">ISTE-VESIT Ideathon</text>
+    <text x="58" y="62" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Technical innovation &amp; defense</text>
+  </g>
+
+  <!-- CARD 3: YUKTI HACKATHON + IDEATHON (ONGOING) -->
+  <g transform="translate(796, 44)">
+    <rect width="344" height="76" rx="10" fill="url(#achCardBg)" stroke="#1F4C39" stroke-width="1.3"/>
+    <!-- Target / Pulse Icon -->
+    <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.5" fill="none">
+      <circle cx="0" cy="0" r="11" stroke-dasharray="3 3"/>
+      <circle cx="0" cy="0" r="6" stroke="#6EE7B7"/>
+      <circle cx="0" cy="0" r="2.5" fill="#A7F3D0"/>
+      <line x1="-14" y1="0" x2="14" y2="0" stroke-opacity="0.4"/>
+      <line x1="0" y1="-14" x2="0" y2="14" stroke-opacity="0.4"/>
+    </g>
+    <!-- Card Text -->
+    <g transform="translate(58, 24)">
+      <text x="0" y="0" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.5">SHORTLISTED // </text>
+      <circle cx="95" cy="-3" r="2.5" fill="#34D399">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="103" y="0" fill="#34D399" font-family="'Consolas', monospace" font-size="8.5" font-weight="600" letter-spacing="1">CURRENTLY ONGOING</text>
+    </g>
+    <text x="58" y="44" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700">Yukti Hackathon + Ideathon</text>
+    <text x="58" y="62" fill="#A7F3D0" font-family="system-ui, -apple-system, sans-serif" font-size="11">Shortlisted &amp; Active participant</text>
+  </g>
+</svg>
