@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="gaTitle gaDesc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="135" viewBox="0 0 1200 135" role="img" aria-labelledby="gaTitle gaDesc">
   <title id="gaTitle">Swastik Tawate — GitHub Analytics</title>
-  <desc id="gaDesc">Live verified telemetry dashboard displaying total repositories, contributions, merged pull requests, active contribution streak, and stargazers in a graphite and emerald green theme.</desc>
+  <desc id="gaDesc">Compact verified telemetry dashboard displaying total repositories, contributions, merged pull requests, active contribution streak, and stargazers in a graphite and emerald green theme.</desc>
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="gaBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -15,7 +15,7 @@
       <stop offset="100%" stop-color="#0B1310"/>
     </linearGradient>
 
-    <!-- Card Highlight Gradient -->
+    <!-- Card Border Gradient -->
     <linearGradient id="gaCardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1F4737"/>
       <stop offset="100%" stop-color="#102B20"/>
@@ -29,160 +29,121 @@
     </linearGradient>
 
     <!-- Subtle Grid Pattern -->
-    <pattern id="gaGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
-      <circle cx="30" cy="30" r="0.8" fill="#10B981" fill-opacity="0.15"/>
+    <pattern id="gaGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
   </defs>
 
   <!-- Container Base & Grid -->
-  <rect width="1200" height="260" rx="18" fill="url(#gaBg)"/>
-  <rect width="1200" height="260" rx="18" fill="url(#gaGrid)"/>
-  <rect width="1200" height="260" rx="18" fill="none" stroke="#16382B" stroke-width="1.2"/>
+  <rect width="1200" height="135" rx="14" fill="url(#gaBg)"/>
+  <rect width="1200" height="135" rx="14" fill="url(#gaGrid)"/>
+  <rect width="1200" height="135" rx="14" fill="none" stroke="#16382B" stroke-width="1.2"/>
 
   <!-- Top Header & Status Bar -->
-  <g transform="translate(60, 32)">
+  <g transform="translate(60, 22)">
     <!-- Live Status Pill -->
-    <rect width="165" height="22" rx="11" fill="#0C1914" stroke="#1C4434" stroke-width="1"/>
-    <circle cx="12" cy="11" r="3.5" fill="#34D399">
+    <rect width="155" height="18" rx="9" fill="#0C1914" stroke="#1C4434" stroke-width="1"/>
+    <circle cx="10" cy="9" r="3" fill="#34D399">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="12" cy="11" r="6.5" fill="none" stroke="#10B981" stroke-opacity="0.5">
-      <animate attributeName="r" values="3.5;8;3.5" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="24" y="14.5" fill="#6EE7B7" font-family="'Segoe UI', -apple-system, sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.8">LIVE TELEMETRY</text>
+    <text x="20" y="12" fill="#6EE7B7" font-family="'Segoe UI', sans-serif" font-size="8.5" font-weight="600" letter-spacing="1.5">LIVE TELEMETRY</text>
 
     <!-- Header Title -->
-    <text x="190" y="16" fill="#F0FDF4" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5">GITHUB ANALYTICS</text>
+    <text x="175" y="13" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">GITHUB ANALYTICS</text>
 
-    <!-- Animated Scanning Laser Line -->
-    <path d="M 370 11 H 1080" stroke="#143628" stroke-width="1"/>
-    <path d="M 370 11 H 1080" stroke="url(#gaLaser)" stroke-width="2" stroke-dasharray="140 570">
-      <animate attributeName="stroke-dashoffset" values="0;-710" dur="7.5s" repeatCount="indefinite"/>
+    <!-- Scanning Laser Line -->
+    <path d="M 320 9 H 1080" stroke="#143628" stroke-width="1"/>
+    <path d="M 320 9 H 1080" stroke="url(#gaLaser)" stroke-width="1.6" stroke-dasharray="140 620">
+      <animate attributeName="stroke-dashoffset" values="0;-760" dur="7s" repeatCount="indefinite"/>
     </path>
   </g>
 
-  <!-- ==================== 5 TELEMETRY METRIC CARDS ==================== -->
-  <!-- Card dimensions: width 196, height 150. Start X=60, Gap=25. Y=76 -->
+  <!-- ==================== 5 COMPACT TELEMETRY CARDS ==================== -->
+  <!-- Width: 196, Height: 76, Gap: 25, Start X: 60, Y: 44 -->
 
   <!-- CARD 1: REPOSITORIES -->
-  <g transform="translate(60, 76)">
-    <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
-    <!-- Top-Right Accent Dot -->
-    <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Repository Book (Crisp Vector) -->
-    <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.8" fill="none">
-      <path d="M -10 -10 H 2 C 5 -10 8 -8 8 -5 V 10 C 8 7 5 7 2 7 H -10 Z"/>
-      <path d="M -10 -10 H -14 C -17 -10 -20 -8 -20 -5 V 10 C -20 7 -17 7 -14 7 H -10 Z"/>
-      <line x1="-10" y1="-10" x2="-10" y2="7"/>
+  <g transform="translate(60, 44)">
+    <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
+    <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Icon -->
+    <g transform="translate(26, 38)" stroke="#34D399" stroke-width="1.6" fill="none">
+      <path d="M -8 -8 H 2 C 4 -8 6 -6 6 -4 V 8 C 6 6 4 6 2 6 H -8 Z"/>
+      <path d="M -8 -8 H -11 C -13 -8 -15 -6 -15 -4 V 8 C -15 6 -13 6 -11 6 H -8 Z"/>
+      <line x1="-8" y1="-8" x2="-8" y2="6"/>
     </g>
-    <!-- Big Value -->
-    <text x="64" y="46" fill="#F0FDF4" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">16</text>
-    <!-- Title Label -->
-    <text x="24" y="94" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="11" font-weight="700" letter-spacing="1.5">REPOSITORIES</text>
-    <!-- Subtitle Detail -->
-    <text x="24" y="116" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400">Public Codebases</text>
-    <!-- Bottom Progress Track -->
-    <rect x="24" y="132" width="148" height="3" rx="1.5" fill="#0D261C"/>
-    <rect x="24" y="132" width="85" height="3" rx="1.5" fill="#10B981"/>
+    <!-- Value -->
+    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">16</text>
+    <!-- Labels -->
+    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">REPOSITORIES</text>
+    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Public Codebases</text>
   </g>
 
   <!-- CARD 2: CONTRIBUTIONS MADE -->
-  <g transform="translate(281, 76)">
-    <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
-    <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Contribution Git Matrix (Crisp Vector) -->
-    <g transform="translate(32, 38)">
-      <circle cx="-10" cy="-6" r="3.5" fill="#10B981"/>
-      <circle cx="2" cy="-6" r="3.5" fill="#34D399"/>
-      <circle cx="-10" cy="6" r="3.5" fill="#6EE7B7"/>
-      <circle cx="2" cy="6" r="3.5" fill="#A7F3D0"/>
-      <circle cx="14" cy="0" r="3.5" fill="#34D399"/>
+  <g transform="translate(281, 44)">
+    <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
+    <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Icon -->
+    <g transform="translate(26, 38)">
+      <circle cx="-6" cy="-5" r="2.8" fill="#10B981"/>
+      <circle cx="4" cy="-5" r="2.8" fill="#34D399"/>
+      <circle cx="-6" cy="5" r="2.8" fill="#6EE7B7"/>
+      <circle cx="4" cy="5" r="2.8" fill="#A7F3D0"/>
     </g>
-    <!-- Big Value -->
-    <text x="64" y="46" fill="#34D399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">57+</text>
-    <!-- Title Label -->
-    <text x="24" y="94" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="11" font-weight="700" letter-spacing="1.5">CONTRIBUTIONS</text>
-    <!-- Subtitle Detail -->
-    <text x="24" y="116" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400">Yearly Activity</text>
-    <!-- Bottom Progress Track -->
-    <rect x="24" y="132" width="148" height="3" rx="1.5" fill="#0D261C"/>
-    <rect x="24" y="132" width="115" height="3" rx="1.5" fill="#34D399"/>
+    <!-- Value -->
+    <text x="50" y="38" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">57+</text>
+    <!-- Labels -->
+    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">CONTRIBUTIONS</text>
+    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Yearly Activity</text>
   </g>
 
-  <!-- CARD 3: MERGED PULL REQUESTS -->
-  <g transform="translate(502, 76)">
-    <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
-    <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Merged PR (Crisp Vector) -->
-    <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.8" fill="none">
-      <circle cx="-10" cy="-6" r="3" fill="#A7F3D0"/>
-      <circle cx="-10" cy="8" r="3"/>
-      <circle cx="4" cy="2" r="3" fill="#34D399"/>
-      <path d="M -10 -3 V 5"/>
-      <path d="M -10 -3 C -10 2 -6 2 1 2"/>
+  <!-- CARD 3: MERGED PRS -->
+  <g transform="translate(502, 44)">
+    <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
+    <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Icon -->
+    <g transform="translate(26, 38)" stroke="#34D399" stroke-width="1.6" fill="none">
+      <circle cx="-7" cy="-5" r="2.5" fill="#A7F3D0"/>
+      <circle cx="-7" cy="6" r="2.5"/>
+      <circle cx="5" cy="1" r="2.5" fill="#34D399"/>
+      <path d="M -7 -2.5 V 3.5"/>
+      <path d="M -7 -2.5 C -7 1 -4 1 2.5 1"/>
     </g>
-    <!-- Big Value -->
-    <text x="64" y="46" fill="#F0FDF4" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">8</text>
-    <!-- Title Label -->
-    <text x="24" y="94" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="11" font-weight="700" letter-spacing="1.5">MERGED PRS</text>
-    <!-- Subtitle Detail -->
-    <text x="24" y="116" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400">Merged Codebases</text>
-    <!-- Bottom Progress Track -->
-    <rect x="24" y="132" width="148" height="3" rx="1.5" fill="#0D261C"/>
-    <rect x="24" y="132" width="95" height="3" rx="1.5" fill="#10B981"/>
+    <!-- Value -->
+    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">8</text>
+    <!-- Labels -->
+    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">MERGED PRS</text>
+    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Merged to Main</text>
   </g>
 
-  <!-- CARD 4: CONTRIBUTION STREAK (Ultra-Crisp Vector Flame, Zero Blur) -->
-  <g transform="translate(723, 76)">
-    <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
-    <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Crisp Precision Flame -->
-    <g transform="translate(32, 36)">
-      <!-- Outer Flame Silhouette -->
-      <path d="M 0 13 C 7.5 13 12.5 8 12.5 1.5 C 12.5 -4 9.5 -8 6.5 -11.5 C 6 -7.5 3.5 -5 1.5 -4 C 1.5 -7 0.5 -11.5 -2.5 -15.5 C -4 -10.5 -8.5 -6 -8.5 -1 C -8.5 1 -7.5 3 -5 4 C -7.5 5.5 -8.5 7.5 -8.5 9.5 C -8.5 11.8 -4.5 13 0 13 Z" fill="#34D399" stroke="#10B981" stroke-width="0.8"/>
-      <!-- Inner Core Flame -->
-      <path d="M 0 10.5 C 4 10.5 6.5 8 6.5 4.5 C 6.5 1.5 5 -0.5 3.5 -2 C 2.5 0 1 1.2 0 2 C 0 0.5 -0.5 -1.5 -2 -3.5 C -3 -1 -4 1.5 -4 4.5 C -4 8 -2 10.5 0 10.5 Z" fill="#F0FDF4"/>
+  <!-- CARD 4: CONTRIBUTION STREAK -->
+  <g transform="translate(723, 44)">
+    <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
+    <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Crisp Vector Flame -->
+    <g transform="translate(26, 36)">
+      <path d="M 0 11 C 6 11 10 7 10 1.5 C 10 -3 7.5 -6 5 -9 C 4.5 -6 2.5 -4 1 -3 C 1 -5.5 0.5 -9 -2 -12 C -3 -8 -6.5 -4.5 -6.5 -1 C -6.5 0.5 -5.5 2 -3.5 3 C -5.5 4 -6.5 6 -6.5 7.5 C -6.5 9.5 -3.5 11 0 11 Z" fill="#34D399" stroke="#10B981" stroke-width="0.7"/>
+      <path d="M 0 9 C 3 9 5 7 5 4 C 5 1.5 3.5 0 2.5 -1 C 1.8 0.5 0.8 1.5 0 2 C 0 1 -0.5 -0.5 -1.5 -2 C -2.2 -0.5 -3 1 -3 3.5 C -3 6.5 -1.5 9 0 9 Z" fill="#F0FDF4"/>
     </g>
-    <!-- Big Value -->
-    <text x="64" y="46" fill="#6EE7B7" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">10d</text>
-    <!-- Title Label -->
-    <text x="24" y="94" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="11" font-weight="700" letter-spacing="1.5">ACTIVE STREAK</text>
-    <!-- Subtitle Detail -->
-    <text x="24" y="116" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400">Consecutive Days</text>
-    <!-- Bottom Progress Track -->
-    <rect x="24" y="132" width="148" height="3" rx="1.5" fill="#0D261C"/>
-    <rect x="24" y="132" width="130" height="3" rx="1.5" fill="#6EE7B7"/>
+    <!-- Value -->
+    <text x="50" y="38" fill="#6EE7B7" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">10d</text>
+    <!-- Labels -->
+    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">ACTIVE STREAK</text>
+    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Consecutive Days</text>
   </g>
 
-  <!-- CARD 5: STARS GOT (Ultra-Crisp Vector 5-Point Star, Zero Blur) -->
-  <g transform="translate(944, 76)">
-    <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
-    <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Crisp Precision Star -->
-    <g transform="translate(32, 36)">
-      <!-- Outer Razor-Sharp Star -->
-      <polygon points="0,-14 4.2,-4.5 14.5,-3.5 6.8,3.2 9,13.5 0,8.2 -9,13.5 -6.8,3.2 -14.5,-3.5 -4.2,-4.5" fill="#34D399" stroke="#6EE7B7" stroke-width="1.2"/>
-      <!-- Inner Crisp Core Star -->
-      <polygon points="0,-7.5 2.2,-2.2 7.5,-1.8 3.5,1.8 4.6,7 0,4.2 -4.6,7 -3.5,1.8 -7.5,-1.8 -2.2,-2.2" fill="#F0FDF4"/>
+  <!-- CARD 5: STARS GOT -->
+  <g transform="translate(944, 44)">
+    <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
+    <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Crisp Vector Star -->
+    <g transform="translate(26, 36)">
+      <polygon points="0,-11 3.2,-3.5 11,-2.7 5.2,2.5 6.8,10.2 0,6.2 -6.8,10.2 -5.2,2.5 -11,-2.7 -3.2,-3.5" fill="#34D399" stroke="#6EE7B7" stroke-width="0.9"/>
+      <polygon points="0,-6 1.7,-1.8 6,-1.4 2.8,1.4 3.7,5.5 0,3.3 -3.7,5.5 -2.8,1.4 -6,-1.4 -1.7,-1.8" fill="#F0FDF4"/>
     </g>
-    <!-- Big Value -->
-    <text x="64" y="46" fill="#F0FDF4" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">2</text>
-    <!-- Title Label -->
-    <text x="24" y="94" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="11" font-weight="700" letter-spacing="1.5">STARS GOT</text>
-    <!-- Subtitle Detail -->
-    <text x="24" y="116" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400">Earned Stargazers</text>
-    <!-- Bottom Progress Track -->
-    <rect x="24" y="132" width="148" height="3" rx="1.5" fill="#0D261C"/>
-    <rect x="24" y="132" width="55" height="3" rx="1.5" fill="#10B981"/>
-  </g>
-
-  <!-- Precision Corner Framing Marks -->
-  <g stroke="#34D399" stroke-opacity="0.35" stroke-width="1.2" fill="none">
-    <path d="M 20 40 L 20 20 L 40 20"/>
-    <path d="M 1160 20 L 1180 20 L 1180 40"/>
-    <path d="M 20 220 L 20 240 L 40 240"/>
-    <path d="M 1160 240 L 1180 240 L 1180 220"/>
+    <!-- Value -->
+    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">2</text>
+    <!-- Labels -->
+    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">STARS GOT</text>
+    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Earned Stargazers</text>
   </g>
 </svg>
