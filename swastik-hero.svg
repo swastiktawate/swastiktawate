@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Swastik Tawate — Developer Profile</title>
+  <desc id="desc">A cinematic burgundy developer banner with animated orbital geometry, a fine technical grid, flowing gradient paths, and a glowing underline.</desc>
+  <defs>
+    <linearGradient id="swHeroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset=".55" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#451126"/>
+      <animate attributeName="x1" values="0;1;0" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="swHeroLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".15"/>
+      <stop offset=".48" stop-color="#E5B5C7"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity=".2"/>
+      <animate attributeName="x1" values="0;1;0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="swHeroGlow">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="swHeroGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#E5B5C7" stroke-opacity=".075" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#E5B5C7" fill-opacity=".18"/>
+    </pattern>
+    <filter id="swHeroBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <mask id="swHeroFade">
+      <linearGradient id="swHeroMask" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="white"/>
+        <stop offset=".72" stop-color="white" stop-opacity=".9"/>
+        <stop offset="1" stop-color="white" stop-opacity=".2"/>
+      </linearGradient>
+      <rect width="1200" height="430" fill="url(#swHeroMask)"/>
+    </mask>
+  </defs>
+  <rect width="1200" height="430" rx="22" fill="url(#swHeroBg)"/>
+  <rect width="1200" height="430" rx="22" fill="url(#swHeroGrid)"/>
+  <ellipse cx="970" cy="190" rx="310" ry="250" fill="url(#swHeroGlow)"/>
+  <g fill="none" stroke="#C77B9B" stroke-opacity=".36">
+    <ellipse cx="965" cy="202" rx="220" ry="92" transform="rotate(-28 965 202)" stroke-width="1.2"/>
+    <ellipse cx="965" cy="202" rx="220" ry="92" transform="rotate(48 965 202)" stroke-width="1.2" stroke-dasharray="4 9"/>
+    <circle cx="965" cy="202" r="150" stroke-opacity=".18" stroke-dasharray="2 10"/>
+    <path d="M730 202H1180M965 42V362" stroke-opacity=".16" stroke-dasharray="3 8"/>
+  </g>
+  <g>
+    <circle cx="965" cy="110" r="5" fill="#E5B5C7">
+      <animate attributeName="opacity" values=".35;1;.35" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1142" cy="264" r="4" fill="#C77B9B">
+      <animate attributeName="r" values="3;5;3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="825" cy="293" r="3" fill="#F8F0F3">
+      <animate attributeName="opacity" values=".25;.8;.25" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <path d="M660 360 C760 310 785 265 850 250 S960 250 1030 175 S1115 125 1200 95" fill="none" stroke="#C77B9B" stroke-opacity=".22" stroke-width="12" filter="url(#swHeroBlur)"/>
+  <path d="M660 360 C760 310 785 265 850 250 S960 250 1030 175 S1115 125 1200 95" fill="none" stroke="url(#swHeroLine)" stroke-width="1.6" stroke-dasharray="8 9" mask="url(#swHeroFade)">
+    <animate attributeName="stroke-dashoffset" values="0;-170" dur="13s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="82" y="86" fill="#C77B9B" font-size="13" letter-spacing="4">ENGINEERING • AUTOMATION • CREATIVE CODE</text>
+    <text x="78" y="183" fill="#F8F0F3" font-size="64" font-weight="700" letter-spacing="-2">SWASTIK</text>
+    <text x="80" y="246" fill="#F8F0F3" font-size="64" font-weight="700" letter-spacing="-2">TAWATE</text>
+    <rect x="82" y="272" width="350" height="3" rx="1.5" fill="#701A3D"/>
+    <rect x="82" y="272" width="110" height="3" rx="1.5" fill="#E5B5C7" filter="url(#swHeroBlur)"/>
+    <rect x="82" y="272" width="110" height="3" rx="1.5" fill="#E5B5C7">
+      <animate attributeName="x" values="82;322;82" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="82" y="315" fill="#E5B5C7" font-size="18" letter-spacing="1.1">Automation &amp; Robotics • Software • Product Design</text>
+    <text x="82" y="370" fill="#C77B9B" font-size="12" letter-spacing="3">BUILD THOUGHTFULLY. MAKE IT USEFUL.</text>
+  </g>
+  <path d="M24 66V24H66M1134 24H1176V66M24 364V406H66M1134 406H1176V364" fill="none" stroke="#C77B9B" stroke-opacity=".6" stroke-width="1.2"/>
+</svg>

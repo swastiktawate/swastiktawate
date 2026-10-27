@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="footTitle footDesc">
+  <title id="footTitle">Keep building</title>
+  <desc id="footDesc">Minimal burgundy footer with a gently animated glowing line and technical grid.</desc>
+  <defs>
+    <linearGradient id="swFootBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+    <linearGradient id="swFootGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E5B5C7"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="swFootGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#E5B5C7" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="120" rx="16" fill="url(#swFootBg)"/>
+  <rect width="1200" height="120" rx="16" fill="url(#swFootGrid)"/>
+  <path d="M40 35H1160" stroke="#701A3D" stroke-width="1"/>
+  <path d="M40 35H1160" stroke="url(#swFootGlow)" stroke-width="2.5" stroke-dasharray="160 1040">
+    <animate attributeName="stroke-dashoffset" values="0;-1200" dur="10s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="73" fill="#F8F0F3" font-size="16" letter-spacing="3">IDEAS INTO SYSTEMS. SYSTEMS INTO IMPACT.</text>
+    <text x="600" y="97" fill="#C77B9B" font-size="10" letter-spacing="2">SWASTIK TAWATE · PROFILE README</text>
+  </g>
+</svg>
