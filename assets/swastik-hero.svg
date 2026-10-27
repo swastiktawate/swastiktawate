@@ -189,10 +189,10 @@
     </rect>
 
     <!-- Sub-role & Domain -->
-    <text x="82" y="302" fill="#A7F3D0" font-size="18.5" font-weight="500" letter-spacing="0.8">Automation &amp; Robotics • Software Engineering • Systems</text>
+    <text x="82" y="302" fill="#A7F3D0" font-size="18.5" font-weight="500" letter-spacing="0.8">Automation &amp; Robotics • AI/ML • Systems</text>
 
     <!-- Secondary Statement -->
-    <text x="82" y="338" fill="#94A3B8" font-size="13.5" font-weight="400" letter-spacing="0.5">Undergraduate at VESIT Mumbai · Embedded Systems, Full-Stack &amp; Applied AI</text>
+    <text x="82" y="338" fill="#94A3B8" font-size="13.5" font-weight="400" letter-spacing="0.5">Undergraduate at VESIT Mumbai · B.Tech in Automation &amp; Robotics</text>
 
     <!-- Engineering Creed / Motto -->
     <g transform="translate(82, 376)">
