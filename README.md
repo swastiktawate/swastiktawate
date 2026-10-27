@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=15ANlnR5AYDeTLkGcXqAjDDGpE_W47-Z5" width="100%" alt="Swastik Tawate — GitHub Profile Banner" />
+  <img src="./profile-banner.png" width="100%" alt="Profile Banner" />
 </p>
+
+---
 
 ---
 # Tech Stack:
