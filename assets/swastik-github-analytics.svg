@@ -33,14 +33,6 @@
       <path d="M30 0H0V30" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
       <circle cx="30" cy="30" r="0.8" fill="#10B981" fill-opacity="0.15"/>
     </pattern>
-
-    <!-- Blur & Glow Filters -->
-    <filter id="gaGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-    </filter>
-    <filter id="gaTightGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="tight"/>
-    </filter>
   </defs>
 
   <!-- Container Base & Grid -->
@@ -79,7 +71,7 @@
     <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
     <!-- Top-Right Accent Dot -->
     <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Repository Book -->
+    <!-- Icon: Repository Book (Crisp Vector) -->
     <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.8" fill="none">
       <path d="M -10 -10 H 2 C 5 -10 8 -8 8 -5 V 10 C 8 7 5 7 2 7 H -10 Z"/>
       <path d="M -10 -10 H -14 C -17 -10 -20 -8 -20 -5 V 10 C -20 7 -17 7 -14 7 H -10 Z"/>
@@ -100,7 +92,7 @@
   <g transform="translate(281, 76)">
     <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
     <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Contribution Git Matrix -->
+    <!-- Icon: Contribution Git Matrix (Crisp Vector) -->
     <g transform="translate(32, 38)">
       <circle cx="-10" cy="-6" r="3.5" fill="#10B981"/>
       <circle cx="2" cy="-6" r="3.5" fill="#34D399"/>
@@ -123,7 +115,7 @@
   <g transform="translate(502, 76)">
     <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
     <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Merged PR -->
+    <!-- Icon: Merged PR (Crisp Vector) -->
     <g transform="translate(32, 38)" stroke="#34D399" stroke-width="1.8" fill="none">
       <circle cx="-10" cy="-6" r="3" fill="#A7F3D0"/>
       <circle cx="-10" cy="8" r="3"/>
@@ -142,14 +134,16 @@
     <rect x="24" y="132" width="95" height="3" rx="1.5" fill="#10B981"/>
   </g>
 
-  <!-- CARD 4: CONTRIBUTION STREAK -->
+  <!-- CARD 4: CONTRIBUTION STREAK (Ultra-Crisp Vector Flame, Zero Blur) -->
   <g transform="translate(723, 76)">
     <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
     <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Streak Flame -->
-    <g transform="translate(30, 38)">
-      <path d="M 0 10 C 6 10 10 6 10 0 C 10 -6 4 -10 2 -14 C 1 -11 -1 -8 -4 -6 C -6 -4 -7 -1 -7 2 C -7 6 -4 10 0 10 Z" fill="#34D399" filter="url(#gaTightGlow)"/>
-      <path d="M 0 8 C 3 8 5 5 5 2 C 5 -1 2 -4 1 -6 C 0 -4 -1 -3 -2 -1 C -3 0 -4 1 -4 3 C -4 6 -2 8 0 8 Z" fill="#F0FDF4"/>
+    <!-- Icon: Crisp Precision Flame -->
+    <g transform="translate(32, 36)">
+      <!-- Outer Flame Silhouette -->
+      <path d="M 0 13 C 7.5 13 12.5 8 12.5 1.5 C 12.5 -4 9.5 -8 6.5 -11.5 C 6 -7.5 3.5 -5 1.5 -4 C 1.5 -7 0.5 -11.5 -2.5 -15.5 C -4 -10.5 -8.5 -6 -8.5 -1 C -8.5 1 -7.5 3 -5 4 C -7.5 5.5 -8.5 7.5 -8.5 9.5 C -8.5 11.8 -4.5 13 0 13 Z" fill="#34D399" stroke="#10B981" stroke-width="0.8"/>
+      <!-- Inner Core Flame -->
+      <path d="M 0 10.5 C 4 10.5 6.5 8 6.5 4.5 C 6.5 1.5 5 -0.5 3.5 -2 C 2.5 0 1 1.2 0 2 C 0 0.5 -0.5 -1.5 -2 -3.5 C -3 -1 -4 1.5 -4 4.5 C -4 8 -2 10.5 0 10.5 Z" fill="#F0FDF4"/>
     </g>
     <!-- Big Value -->
     <text x="64" y="46" fill="#6EE7B7" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">10d</text>
@@ -162,14 +156,16 @@
     <rect x="24" y="132" width="130" height="3" rx="1.5" fill="#6EE7B7"/>
   </g>
 
-  <!-- CARD 5: STARS GOT -->
+  <!-- CARD 5: STARS GOT (Ultra-Crisp Vector 5-Point Star, Zero Blur) -->
   <g transform="translate(944, 76)">
     <rect width="196" height="150" rx="14" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.3"/>
     <circle cx="178" cy="18" r="3" fill="#34D399" opacity="0.6"/>
-    <!-- Icon: Star -->
-    <g transform="translate(32, 38)">
-      <polygon points="0,-12 3.5,-3 12,-3 5,2 7.5,11 0,6 -7.5,11 -5,2 -12,-3 -3.5,-3" fill="#A7F3D0" filter="url(#gaTightGlow)"/>
-      <polygon points="0,-8 2,-2 8,-2 3.5,1.5 5,7 0,4 -5,7 -3.5,1.5 -8,-2 -2,-2" fill="#F0FDF4"/>
+    <!-- Icon: Crisp Precision Star -->
+    <g transform="translate(32, 36)">
+      <!-- Outer Razor-Sharp Star -->
+      <polygon points="0,-14 4.2,-4.5 14.5,-3.5 6.8,3.2 9,13.5 0,8.2 -9,13.5 -6.8,3.2 -14.5,-3.5 -4.2,-4.5" fill="#34D399" stroke="#6EE7B7" stroke-width="1.2"/>
+      <!-- Inner Crisp Core Star -->
+      <polygon points="0,-7.5 2.2,-2.2 7.5,-1.8 3.5,1.8 4.6,7 0,4.2 -4.6,7 -3.5,1.8 -7.5,-1.8 -2.2,-2.2" fill="#F0FDF4"/>
     </g>
     <!-- Big Value -->
     <text x="64" y="46" fill="#F0FDF4" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-1">2</text>
