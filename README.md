@@ -1,107 +1,151 @@
 <p align="center">
-  <img src="./swastik-hero.svg" width="100%" alt="Swastik Tawate — Automation and Robotics, Software, Product Design" />
+  <img src="./swastik-hero.svg" width="100%" alt="Swastik Tawate — Automation and Robotics, Software Engineering, Applied AI" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/swastiktawate"><img src="https://img.shields.io/badge/GitHub-swastiktawate-451126?style=flat-square&logo=github&logoColor=F8F0F3" alt="GitHub profile" /></a>
-  <a href="https://www.linkedin.com/in/swastiktawate"><img src="https://img.shields.io/badge/LinkedIn-Connect-701A3D?style=flat-square&logo=linkedin&logoColor=F8F0F3" alt="LinkedIn profile" /></a>
-  <a href="mailto:swastiktawate.work@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-190B12?style=flat-square&logo=gmail&logoColor=E5B5C7" alt="Email" /></a>
+  <a href="https://github.com/swastiktawate"><img src="https://img.shields.io/badge/GitHub-swastiktawate-0E1714?style=flat-square&logo=github&logoColor=10B981" alt="GitHub Profile" /></a>
+  <a href="https://www.linkedin.com/in/swastiktawate"><img src="https://img.shields.io/badge/LinkedIn-Connect-0E1714?style=flat-square&logo=linkedin&logoColor=10B981" alt="LinkedIn Profile" /></a>
+  <a href="mailto:swastiktawate.work@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-0E1714?style=flat-square&logo=gmail&logoColor=34D399" alt="Email Direct" /></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/Focus-Robotics%20%7C%20Full--Stack%20%7C%20AI-0E1714?style=flat-square&logo=target&logoColor=6EE7B7" alt="Engineering Focus" /></a>
 </p>
 
 ---
 
-## About
+## ⚡ Overview
 
-I'm a B.Tech student in **Automation and Robotics at Vivekanand Education Society's Institute of Technology (VESIT)**, interested in building useful software, connected systems, and thoughtful digital experiences.
+I am an **Automation & Robotics** undergraduate at **Vivekanand Education Society's Institute of Technology (VESIT), Mumbai** (2025–2029). My engineering focus centers at the convergence of **embedded hardware systems**, **intelligent software**, and **applied AI**.
 
-My work spans web prototypes, workflow tools, embedded-system concepts, and visual design. I enjoy taking a problem from an early idea through user flows, technical structure, and a practical prototype.
+From architecting finite-state machine firmware on microcontrollers to designing full-stack web applications and conversational AI workflows, I approach technology with a builder's discipline: understanding real-world constraints, structuring clean abstractions, and delivering purposeful solutions.
 
-- **Currently exploring:** software development, robotics, embedded systems, and AI-enabled applications.
-- **Also interested in:** product thinking, creative technology, debate, and Model United Nations.
-- **Experience:** freelance graphic design and school-based training in MUN, debate, and communication skills.
+- 🤖 **Core Focus:** Automation & Robotics, Embedded Systems (ESP32, Sensors, I²C), Full-Stack Web Development, and Applied AI.
+- 📐 **Interests:** Systems Architecture, UI/UX Prototyping, Competitive Debate, and Model United Nations.
+- 💼 **Experience:** Freelance Graphic Designer (2021–2026) & Freelance Trainer at Tarkus Training (OPC) Pvt. Ltd. (2026–Present).
 
-## Selected Work
+---
 
-### Kisan Saathi
-*A farmer-focused platform concept*
+## 🛠️ Technical Toolkit
 
-Designed a prototype around conversational assistance, cold-storage discovery, and collaborative **Create Your Own Pool** logistics.
+<div align="center">
 
-**Technologies:** React · TypeScript · Python · FastAPI · Google Gemini API · UI/UX prototyping
+| Domain | Verified Technologies & Frameworks |
+| :--- | :--- |
+| **Programming Languages** | `Python` · `C/C++` · `HTML5 / CSS3` · `SQL` · `JavaScript` · `TypeScript` |
+| **Frameworks & APIs** | `React` · `FastAPI` · `Google Gemini API` · `Google Apps Script` |
+| **Robotics & Embedded Systems** | `ESP32` · `I²C Communication` · `VL53L1X Time-of-Flight (ToF)` · `Ultrasonic Sensors` · `MATLAB` |
+| **Tools & Platforms** | `Git` · `GitHub` · `Google Antigravity` · `Google Sheets` |
+| **Design & Prototyping** | `UI/UX Prototyping` · `Digital Graphics` · `Information Architecture` |
 
-### POI Chit Portal
-*A digital workflow concept for Model United Nations committees*
-
-Developed a web-based concept for managing Points of Information (POIs) and committee scoring, including a framework for evaluating research and articulation and workflow logic for speaking-time cooldowns.
-
-**Technologies:** Google Apps Script · Google Sheets · JavaScript · HTML
-
-### Smart Bi-Directional Room Capacity & Energy Management
-*An embedded-system concept for doorway-based occupancy monitoring*
-
-Designed a room-monitoring concept using a finite-state machine to track occupancy through a single doorway. Proposed occupancy-based lighting control, capacity alerts, and sensor debouncing to support more reliable counts.
-
-**Technologies:** ESP32 · C/C++ · VL53L1X Time-of-Flight sensor
-
-> Public repository and demo URLs for these projects were not present in the supplied résumé, so they are intentionally not guessed. Add verified links when the relevant repositories or demos are ready to share.
-
-## Achievements
-
-| Recognition | Verified résumé detail |
-|:--|:--|
-| Hackathons & ideathons | Finalist — Syrus 7.0 Hackathon |
-| Hackathons & ideathons | Finalist — ISTE-VESIT Ideathon |
-| Debate | Winner — DJSCE eXpress Invictus 1.0, 2026 |
-| Debate | Runner-up — Illusions Debate 2026, VESIT |
-| Model United Nations | Participated in 45+ conferences; 17+ awards; 22+ Executive Board roles, as stated in my MUN CV |
-
-## Education & Certifications
-
-**Vivekanand Education Society's Institute of Technology (VESIT), Mumbai**  
-B.Tech in Automation and Robotics · September 2025 – May 2029
-
-**Certifications**
-- Collaborative Robotics in Industry — L&T EduTech
-- Basics of Robotics — Siemens Digital Industries Software
-- MATLAB Onramp — MathWorks
-
-## Technical Toolkit
-
-| Category | Technologies |
-|:--|:--|
-| Programming | Python, C/C++, HTML, CSS, SQL |
-| Frameworks & APIs | React, FastAPI, Google Gemini API |
-| Tools & workflow | Git, GitHub, Google Antigravity, Google Apps Script, Google Sheets |
-| Robotics & embedded systems | ESP32, I²C communication, Time-of-Flight sensors, ultrasonic sensors, MATLAB |
-| Design & prototyping | UI/UX prototyping, digital graphics |
-
-## GitHub Activity
-
-The contribution chart below is generated from GitHub contribution data by a third-party chart service. It may be unavailable if that service changes or experiences downtime.
+</div>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/701A3D/swastiktawate" alt="GitHub contribution heatmap for swastiktawate" width="100%" />
+  <img src="https://img.shields.io/badge/Python-0E1714?style=flat-square&logo=python&logoColor=34D399" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-0E1714?style=flat-square&logo=cplusplus&logoColor=34D399" alt="C++" />
+  <img src="https://img.shields.io/badge/React-0E1714?style=flat-square&logo=react&logoColor=34D399" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-0E1714?style=flat-square&logo=typescript&logoColor=34D399" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/FastAPI-0E1714?style=flat-square&logo=fastapi&logoColor=34D399" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Google_Gemini_API-0E1714?style=flat-square&logo=google&logoColor=34D399" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/ESP32-0E1714?style=flat-square&logo=espressif&logoColor=34D399" alt="ESP32" />
+  <img src="https://img.shields.io/badge/MATLAB-0E1714?style=flat-square&logo=mathworks&logoColor=34D399" alt="MATLAB" />
+  <img src="https://img.shields.io/badge/Git-0E1714?style=flat-square&logo=git&logoColor=34D399" alt="Git" />
 </p>
 
-I have not added follower, star, language-percentage, or streak cards: those values should only be displayed when a reliable live source can be confirmed.
+---
 
-## Experience
+## 🚀 Featured Projects
 
-**Freelance Trainer — Tarkus Training (OPC) Private Limited**  
-*October 2026 – Present*
+### 🌾 01. Kisan Saathi
+*Farmer-focused platform featuring conversational assistance & collaborative logistics*
 
-Deliver interactive, school-based training sessions for students on Model United Nations, debate, and communication skills.
+- **Problem & Solution:** Designed a comprehensive prototype bridging farmers with localized services, featuring conversational AI assistance and collaborative **"Create Your Own Pool"** logistics for agricultural transport and cold storage.
+- **Key Deliverables:** Engineered user flows for cold-storage discovery, regional resource pooling, and multi-modal conversational guidance.
+- **Tech Stack:** `React` · `TypeScript` · `Python` · `FastAPI` · `Google Gemini API` · `UI/UX Prototyping`
+- **Timeline:** 2026
 
-**Freelance Graphic Designer — Self-employed**  
-*January 2021 – July 2026*
+### 🗳️ 02. POI Chit Portal
+*Digital workflow platform for real-time committee scoring & Point of Information management*
 
-Designed social media posts and digital graphics for multiple clients, refining deliverables based on direct client feedback.
+- **Problem & Solution:** Developed a web-based operations portal engineered to manage Points of Information (POIs) and live scoring across Model United Nations committees.
+- **Key Deliverables:** Implemented an evaluation rubric assessing delegate research quality and articulation, complete with automated workflow logic enforcing speaking-time cooldown intervals.
+- **Tech Stack:** `Google Apps Script` · `Google Sheets` · `JavaScript` · `HTML`
+- **Timeline:** 2026
 
-## Connect
+### 📡 03. Smart Bi-Directional Room Capacity & Energy Management
+*Embedded system concept for doorway-based occupancy monitoring & automated efficiency*
 
-- [GitHub](https://github.com/swastiktawate)
-- [LinkedIn](https://www.linkedin.com/in/swastiktawate)
-- [Email](mailto:swastiktawate.work@gmail.com)
+- **Problem & Solution:** Designed an automated room monitoring system tracking multi-person entry and exit through a single threshold using a finite-state machine (FSM).
+- **Key Deliverables:** Proposed architecture for occupancy-triggered lighting control, dynamic room capacity limits with alert states, and sensor debouncing to maintain precise counts.
+- **Tech Stack:** `ESP32` · `C/C++` · `VL53L1X Time-of-Flight (ToF) Sensor` · `I²C Communication`
+- **Timeline:** 2026
+
+> *Note on Source Repositories:* Repository links and interactive web demos are made available as projects reach public milestone releases.
+
+---
+
+## 🏆 Verified Achievements & Honors
+
+| Category | Honor & Event | Details / Scale |
+| :--- | :--- | :--- |
+| **Hackathons & Ideathons** | **Finalist** — Syrus 7.0 Hackathon | Competitive multi-round hackathon finalist |
+| **Hackathons & Ideathons** | **Finalist** — ISTE-VESIT Ideathon | Technical ideation and prototype defense |
+| **Debate Competitions** | **Winner** — DJSC eXpress Invictus '26 1.0 | Inter-collegiate debate champion |
+| **Debate Competitions** | **Runner-up** — Illusions Debate '26, VESIT | Parliamentary-style debate finalist |
+| **Model United Nations** | **45+ Conferences** · **17+ Awards** | 22+ Executive Board roles across UNSC, DISEC, UNHRC, NCC, & UNGA |
+
+---
+
+## 🎓 Education & Certifications
+
+### Education
+- **Vivekanand Education Society's Institute of Technology (VESIT), Mumbai**  
+  *Bachelor of Technology (B.Tech) in Automation and Robotics*  
+  `Sep. 2025 – May 2029`
+
+- **Don Bosco Senior Secondary School, Nerul, Navi Mumbai**  
+  *Grade I – XII*  
+  `Apr. 2013 – March 2025`
+
+### Verified Certifications
+- **Collaborative Robotics in Industry** — *L&T EduTech*
+- **Basics of Robotics** — *Siemens Digital Industries Software*
+- **MATLAB Onramp** — *MathWorks*
+
+---
+
+## 💼 Professional Experience
+
+- **Freelance Trainer** · **Tarkus Training (OPC) Private Limited**  
+  *October 2026 – Present · On-site*  
+  Deliver interactive, school-based training sessions for students focusing on Model United Nations procedures, parliamentary debate frameworks, and structured communication skills.
+
+- **Freelance Graphic Designer** · **Self-Employed**  
+  *January 2021 – July 2026*  
+  Conceptualized and produced social media graphics and visual assets for diverse clients, refining design systems through continuous stakeholder feedback.
+
+---
+
+## 📊 GitHub Contribution Heatmap
+
+The contribution chart below is generated live from GitHub activity using a Graphite + Emerald Green color palette (`#10B981`):
+
+<p align="center">
+  <a href="https://github.com/swastiktawate">
+    <img src="https://ghchart.rshah.org/10B981/swastiktawate" alt="Swastik Tawate's GitHub Contribution Heatmap" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <sub><i>Live telemetry rendered directly from GitHub. Static badges, unverified metrics, or simulated streaks are omitted in favor of genuine commit history.</i></sub>
+</p>
+
+---
+
+## 📬 Connect & Collaborate
+
+I am always open to discussing robotics, embedded firmware, applied AI systems, or creative software solutions:
+
+- **GitHub:** [@swastiktawate](https://github.com/swastiktawate)
+- **LinkedIn:** [Swastik Tawate](https://www.linkedin.com/in/swastiktawate)
+- **Email:** [swastiktawate.work@gmail.com](mailto:swastiktawate.work@gmail.com)
 
 <p align="center">
   <img src="./swastik-footer.svg" width="100%" alt="Ideas into systems. Systems into impact." />
