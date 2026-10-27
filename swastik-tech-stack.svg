@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="tsTitle tsDesc">
+  <title id="tsTitle">Swastik Tawate — Verified Tech Stack</title>
+  <desc id="tsDesc">Curated technology stack showcasing verified programming languages, robotics, embedded systems, APIs, frameworks, and developer tools in a graphite and emerald green palette.</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D0B"/>
+      <stop offset="50%" stop-color="#0F1814"/>
+      <stop offset="100%" stop-color="#05261B"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="tsCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121D18"/>
+      <stop offset="100%" stop-color="#0B1310"/>
+    </linearGradient>
+
+    <!-- Header Laser Gradient -->
+    <linearGradient id="tsHeaderLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6EE7B7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Micro Grid Pattern -->
+    <pattern id="tsGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
+      <circle cx="32" cy="32" r="0.8" fill="#10B981" fill-opacity="0.18"/>
+    </pattern>
+
+    <!-- Card Glow Filter -->
+    <filter id="tsGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+    </filter>
+    <filter id="tsTightGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="tight"/>
+    </filter>
+  </defs>
+
+  <!-- Container Base & Grid -->
+  <rect width="1200" height="340" rx="18" fill="url(#tsBg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#tsGrid)"/>
+  <rect width="1200" height="340" rx="18" fill="none" stroke="#16382B" stroke-width="1.2"/>
+
+  <!-- Top Status Bar & Header -->
+  <g transform="translate(60, 36)">
+    <!-- Live Status Pill -->
+    <rect width="190" height="22" rx="11" fill="#0C1914" stroke="#1C4434" stroke-width="1"/>
+    <circle cx="12" cy="11" r="3.5" fill="#34D399">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="14.5" fill="#6EE7B7" font-family="'Segoe UI', -apple-system, sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.8">VERIFIED CORE STACK</text>
+
+    <!-- Section Heading Title -->
+    <text x="215" y="16" fill="#F0FDF4" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" letter-spacing="0.5">TECHNICAL CAPABILITIES</text>
+
+    <!-- Laser Divider Line -->
+    <path d="M 430 11 H 1080" stroke="#143628" stroke-width="1"/>
+    <path d="M 430 11 H 1080" stroke="url(#tsHeaderLaser)" stroke-width="1.8" stroke-dasharray="140 510">
+      <animate attributeName="stroke-dashoffset" values="0;-650" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ==================== ROW 1 (7 TILES) ==================== -->
+  <!-- Spacing: Start X=60, Width=136, Gap=21.3 -> 7 * 136 + 6 * 21.3 = 952 + 128 = 1080 -->
+  <!-- Y = 80, Height = 108 -->
+
+  <!-- 1. PYTHON -->
+  <g transform="translate(60, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Python Logo -->
+    <g transform="translate(68, 48) scale(0.95)">
+      <path d="M -1 -17 C -9 -17 -15 -14 -15 -7 L -15 -2 L -5 -2 L -5 0 L -17 0 C -22 0 -26 4 -26 9 C -26 15 -21 18 -15 18 L -12 18 L -12 13 C -12 8 -8 4 -3 4 L 7 4 C 11 4 15 1 15 -3 L 15 -8 C 15 -13 11 -17 -1 -17 Z M -8 -13 A 1.8 1.8 0 1 1 -8 -9.4 A 1.8 1.8 0 0 1 -8 -13 Z" fill="#34D399"/>
+      <path d="M 1 17 C 9 17 15 14 15 7 L 15 2 L 5 2 L 5 0 L 17 0 C 22 0 26 -4 26 -9 C 26 -15 21 -18 15 -18 L 12 -18 L 12 -13 C 12 -8 8 -4 3 -4 L -7 -4 C -11 -4 -15 -1 -15 3 L -15 8 C -15 13 -11 17 1 17 Z M 8 13 A 1.8 1.8 0 1 1 8 9.4 A 1.8 1.8 0 0 1 8 13 Z" fill="#6EE7B7"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">PYTHON</text>
+  </g>
+
+  <!-- 2. C / C++ -->
+  <g transform="translate(217, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- C++ Logo -->
+    <g transform="translate(68, 48)">
+      <path d="M -6 -15 C -15 -15 -22 -8 -22 0 C -22 8 -15 15 -6 15 C -1 15 4 13 8 9 L 4 5 C 1 8 -2 9 -6 9 C -11 9 -15 5 -15 0 C -15 -5 -11 -9 -6 -9 C -2 -9 1 -8 4 -5 L 8 -9 C 4 -13 -1 -15 -6 -15 Z" fill="#34D399"/>
+      <!-- Plus signs -->
+      <path d="M 6 -4 H 10 V -8 H 12 V -4 H 16 V -2 H 12 V 2 H 10 V -2 H 6 Z" fill="#6EE7B7"/>
+      <path d="M 14 3 H 18 V -1 H 20 V 3 H 24 V 5 H 20 V 9 H 18 V 5 H 14 Z" fill="#A7F3D0"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">C / C++</text>
+  </g>
+
+  <!-- 3. REACT -->
+  <g transform="translate(374, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- React Logo -->
+    <g transform="translate(68, 48)">
+      <circle r="4" fill="#A7F3D0"/>
+      <ellipse rx="22" ry="8" fill="none" stroke="#34D399" stroke-width="1.6"/>
+      <ellipse rx="22" ry="8" fill="none" stroke="#34D399" stroke-width="1.6" transform="rotate(60)"/>
+      <ellipse rx="22" ry="8" fill="none" stroke="#34D399" stroke-width="1.6" transform="rotate(120)"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">REACT</text>
+  </g>
+
+  <!-- 4. TYPESCRIPT -->
+  <g transform="translate(531, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- TypeScript Logo -->
+    <g transform="translate(68, 48)">
+      <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#0C1F17" stroke="#34D399" stroke-width="1.8"/>
+      <!-- T -->
+      <path d="M -12 -8 H -2 V -4 H -5 V 10 H -9 V -4 H -12 Z" fill="#6EE7B7"/>
+      <!-- S -->
+      <path d="M 12 -5 C 12 -7.5 10 -8.5 7 -8.5 C 3 -8.5 1 -7 1 -4 C 1 -1 3 0 7 1 C 11 2 12.5 3.5 12.5 6 C 12.5 9 10 10.5 6 10.5 C 2 10.5 0 9 -1 6 L 2.5 4.5 C 3 6.5 4.5 7.5 6.5 7.5 C 8.5 7.5 9.5 6.5 9.5 5 C 9.5 3.5 8 2.5 5.5 1.8 C 2 1 0 -0.5 0 -3.5 C 0 -6.5 2.5 -8.5 7 -8.5 C 9.5 -8.5 11.5 -7.5 12 -6 Z" fill="#A7F3D0"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">TYPESCRIPT</text>
+  </g>
+
+  <!-- 5. FASTAPI -->
+  <g transform="translate(688, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- FastAPI Logo -->
+    <g transform="translate(68, 48)">
+      <circle r="19" fill="#0B2017" stroke="#34D399" stroke-width="1.8"/>
+      <!-- Lightning Bolt -->
+      <path d="M 2 -13 L -9 0 L -1 0 L -3 13 L 9 -1 L 1 -1 Z" fill="#A7F3D0" filter="url(#tsTightGlow)"/>
+      <path d="M 2 -13 L -9 0 L -1 0 L -3 13 L 9 -1 L 1 -1 Z" fill="#F0FDF4"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">FASTAPI</text>
+  </g>
+
+  <!-- 6. GOOGLE GEMINI API -->
+  <g transform="translate(845, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Gemini Star Logo -->
+    <g transform="translate(68, 48)">
+      <path d="M 0 -20 Q 0 0 20 0 Q 0 0 0 20 Q 0 0 -20 0 Q 0 0 0 -20 Z" fill="#34D399"/>
+      <path d="M 0 -11 Q 0 0 11 0 Q 0 0 0 11 Q 0 0 -11 0 Q 0 0 0 -11 Z" fill="#A7F3D0"/>
+      <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">GEMINI API</text>
+  </g>
+
+  <!-- 7. SQL / DATABASES -->
+  <g transform="translate(1002, 80)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- SQL Database Cylinder Logo -->
+    <g transform="translate(68, 48)" stroke="#34D399" stroke-width="1.8" fill="none">
+      <ellipse cx="0" cy="-10" rx="16" ry="5.5" fill="#0C2017"/>
+      <path d="M -16 -10 V 0 C -16 3.2 0 5.5 0 5.5 S 16 3.2 16 0 V -10"/>
+      <path d="M -16 0 V 10 C -16 13.2 0 15.5 0 15.5 S 16 13.2 16 10 V 0"/>
+      <line x1="-10" y1="0" x2="-6" y2="0" stroke="#6EE7B7" stroke-width="2"/>
+      <line x1="-10" y1="10" x2="-6" y2="10" stroke="#6EE7B7" stroke-width="2"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">SQL</text>
+  </g>
+
+  <!-- ==================== ROW 2 (7 TILES) ==================== -->
+  <!-- Y = 205, Height = 108 -->
+
+  <!-- 8. ESP32 EMBEDDED -->
+  <g transform="translate(60, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- ESP32 Processor IC Logo -->
+    <g transform="translate(68, 48)">
+      <rect x="-14" y="-14" width="28" height="28" rx="3" fill="#0B2017" stroke="#34D399" stroke-width="1.8"/>
+      <!-- Chip Pins -->
+      <path d="M -8 -19 V -14 M -3 -19 V -14 M 2 -19 V -14 M 7 -19 V -14
+               M -8 14 V 19 M -3 14 V 19 M 2 14 V 19 M 7 14 V 19
+               M -19 -8 H -14 M -19 -3 H -14 M -19 2 H -14 M -19 7 H -14
+               M 14 -8 H 19 M 14 -3 H 19 M 14 2 H 19 M 14 7 H 19"
+            stroke="#6EE7B7" stroke-width="1.4"/>
+      <rect x="-6" y="-6" width="12" height="12" rx="1.5" fill="#143B2C" stroke="#A7F3D0" stroke-width="1"/>
+      <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">ESP32</text>
+  </g>
+
+  <!-- 9. SENSORS & I²C -->
+  <g transform="translate(217, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- ToF Sensor / Radar Telemetry Logo -->
+    <g transform="translate(68, 48)">
+      <circle cx="-8" cy="2" r="6" fill="#0A1C14" stroke="#34D399" stroke-width="1.6"/>
+      <circle cx="8" cy="2" r="6" fill="#0A1C14" stroke="#34D399" stroke-width="1.6"/>
+      <circle cx="-8" cy="2" r="2.5" fill="#6EE7B7"/>
+      <circle cx="8" cy="2" r="2.5" fill="#6EE7B7"/>
+      <path d="M -16 -8 A 18 18 0 0 1 16 -8" fill="none" stroke="#34D399" stroke-width="1.6" stroke-dasharray="3 3"/>
+      <path d="M -20 -14 A 24 24 0 0 1 20 -14" fill="none" stroke="#A7F3D0" stroke-width="1.6" stroke-dasharray="3 4"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">ToF // I²C</text>
+  </g>
+
+  <!-- 10. MATLAB -->
+  <g transform="translate(374, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- MATLAB Membrane Mesh Logo -->
+    <g transform="translate(68, 48)">
+      <path d="M -18 8 Q -10 -18 0 4 Q 10 -16 18 -2 Q 12 16 0 10 Q -10 16 -18 8 Z" fill="#0C2419" stroke="#34D399" stroke-width="1.8"/>
+      <path d="M -12 6 Q -5 -8 0 4 Q 6 -7 12 2" fill="none" stroke="#6EE7B7" stroke-width="1.2"/>
+      <path d="M -8 11 Q 0 1 8 -5" fill="none" stroke="#A7F3D0" stroke-width="1.2" stroke-dasharray="2 2"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">MATLAB</text>
+  </g>
+
+  <!-- 11. GIT -->
+  <g transform="translate(531, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Git Branch Logo -->
+    <g transform="translate(68, 48)">
+      <rect x="-13" y="-13" width="26" height="26" rx="4" transform="rotate(45)" fill="#0B2017" stroke="#34D399" stroke-width="1.8"/>
+      <path d="M -6 6 L 6 -6 M 0 0 L 0 6" stroke="#6EE7B7" stroke-width="2"/>
+      <circle cx="-6" cy="6" r="2.8" fill="#A7F3D0"/>
+      <circle cx="6" cy="-6" r="2.8" fill="#A7F3D0"/>
+      <circle cx="0" cy="6" r="2.8" fill="#FFFFFF"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">GIT</text>
+  </g>
+
+  <!-- 12. GITHUB -->
+  <g transform="translate(688, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- GitHub Octocat Silhouette Logo -->
+    <g transform="translate(68, 48) scale(0.95)">
+      <path d="M 0 -18 C -10 -18 -18 -10 -18 0 C -18 8 -13 15 -6 17.5 C -5 17.7 -4.6 17 -4.6 16.5 L -4.6 14.5 C -9.5 15.5 -10.5 12 -10.5 12 C -11.3 10 -12.5 9.5 -12.5 9.5 C -14 8.5 -12.4 8.5 -12.4 8.5 C -10.8 8.6 -9.9 10.2 -9.9 10.2 C -8.5 12.6 -6.2 12 -5.5 11.6 C -5.3 10.5 -4.8 9.8 -4.3 9.4 C -8.2 9 -12.3 7.5 -12.3 1.2 C -12.3 -0.6 -11.7 -2 -10.6 -3.2 C -10.8 -3.6 -11.4 -5.4 -10.4 -7.7 C -10.4 -7.7 -9 -8.1 -6 -6.1 C -4.7 -6.5 -3.3 -6.7 -2 -6.7 C -0.7 -6.7 0.7 -6.5 2 -6.1 C 5 -8.1 6.4 -7.7 6.4 -7.7 C 7.4 -5.4 6.8 -3.6 6.6 -3.2 C 7.7 -2 8.3 -0.6 8.3 1.2 C 8.3 7.5 4.2 9 0.3 9.4 C 0.9 9.9 1.4 10.8 1.4 12.2 L 1.4 16.5 C 1.4 17 1.8 17.7 2.8 17.5 C 9.8 15 14.8 8 14.8 0 C 14.8 -10 6.8 -18 0 -18 Z" fill="#34D399"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">GITHUB</text>
+  </g>
+
+  <!-- 13. HTML5 / CSS3 / JAVASCRIPT -->
+  <g transform="translate(845, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Web Code Shield Logo -->
+    <g transform="translate(68, 48)">
+      <path d="M -15 -16 L 15 -16 L 12 14 L 0 18 L -12 14 Z" fill="#0A1E15" stroke="#34D399" stroke-width="1.8"/>
+      <!-- Code Brackets -->
+      <path d="M -6 -5 L -10 0 L -6 5 M 6 -5 L 10 0 L 6 5 M -1.5 6 L 1.5 -6" stroke="#A7F3D0" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">HTML / CSS / JS</text>
+  </g>
+
+  <!-- 14. GOOGLE ANTIGRAVITY / WORKFLOWS -->
+  <g transform="translate(1002, 205)">
+    <rect width="136" height="108" rx="12" fill="url(#tsCardBg)" stroke="#1B3B2E" stroke-width="1.2"/>
+    <circle cx="122" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Antigravity Autonomous Agent Rings Logo -->
+    <g transform="translate(68, 48)">
+      <circle r="4.5" fill="#A7F3D0"/>
+      <ellipse rx="19" ry="7.5" fill="none" stroke="#34D399" stroke-width="1.6" transform="rotate(-30)"/>
+      <ellipse rx="19" ry="7.5" fill="none" stroke="#6EE7B7" stroke-width="1.6" transform="rotate(45)"/>
+      <circle cx="15" cy="0" r="2" fill="#FFFFFF"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">ANTIGRAVITY</text>
+  </g>
+
+  <!-- Precision Corner Framing Marks -->
+  <g stroke="#34D399" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+    <path d="M 20 40 L 20 20 L 40 20"/>
+    <path d="M 1160 20 L 1180 20 L 1180 40"/>
+    <path d="M 20 300 L 20 320 L 40 320"/>
+    <path d="M 1160 320 L 1180 320 L 1180 300"/>
+  </g>
+</svg>
