@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/swastik-hero.svg" width="100%" alt="Swastik Tawate — Automation and Robotics, Software, Product Design" />
+  <img src="./swastik-hero.svg" width="100%" alt="Swastik Tawate — Automation and Robotics, Software, Product Design" />
 </p>
 
 <p align="center">
