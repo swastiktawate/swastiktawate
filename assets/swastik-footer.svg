@@ -1,95 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="footTitle footDesc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="65" viewBox="0 0 1200 65" role="img" aria-labelledby="footTitle footDesc">
   <title id="footTitle">Connect &amp; Systems — Swastik Tawate</title>
-  <desc id="footDesc">Graphite and emerald green footer featuring an animated kinetic pulse line, contact links for email and LinkedIn, and signature engineering tagline.</desc>
+  <desc id="footDesc">Ultra-compact graphite and emerald green footer featuring email, LinkedIn, and engineering creed.</desc>
   <defs>
-    <!-- Background Gradient -->
     <linearGradient id="gemFootBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080D0B"/>
       <stop offset="50%" stop-color="#0E1714"/>
       <stop offset="100%" stop-color="#05241A"/>
     </linearGradient>
-
-    <!-- Kinetic Beam Gradient -->
     <linearGradient id="gemFootGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#34D399" stop-opacity="0.85"/>
-      <stop offset="50%" stop-color="#A7F3D0" stop-opacity="1"/>
-      <stop offset="60%" stop-color="#34D399" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#6EE7B7" stop-opacity="1"/>
       <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
-
-    <!-- Fine Micro Grid -->
-    <pattern id="gemFootGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
-    </pattern>
-
-    <!-- Subtle Glow Filter -->
-    <filter id="gemFootBlur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
   </defs>
 
   <!-- Container Base -->
-  <rect width="1200" height="150" rx="16" fill="url(#gemFootBg)"/>
-  <rect width="1200" height="150" rx="16" fill="url(#gemFootGrid)"/>
-  <rect width="1200" height="150" rx="16" fill="none" stroke="#16382B" stroke-width="1.2"/>
+  <rect width="1200" height="65" rx="10" fill="url(#gemFootBg)"/>
+  <rect width="1200" height="65" rx="10" fill="none" stroke="#16382B" stroke-width="1.2"/>
 
   <!-- Top Kinetic Laser Line -->
-  <!-- Base track -->
-  <path d="M40 24 H1160" stroke="#0B3022" stroke-width="1.2"/>
-  <!-- Blurred Glowing Beam -->
-  <path d="M40 24 H1160" stroke="url(#gemFootGlow)" stroke-width="3" stroke-dasharray="180 1020" filter="url(#gemFootBlur)">
-    <animate attributeName="stroke-dashoffset" values="0;-1200" dur="9s" repeatCount="indefinite"/>
-  </path>
-  <!-- Sharp Core Beam -->
-  <path d="M40 24 H1160" stroke="url(#gemFootGlow)" stroke-width="1.5" stroke-dasharray="180 1020">
-    <animate attributeName="stroke-dashoffset" values="0;-1200" dur="9s" repeatCount="indefinite"/>
+  <path d="M30 12 H1170" stroke="#0B3022" stroke-width="1"/>
+  <path d="M30 12 H1170" stroke="url(#gemFootGlow)" stroke-width="1.8" stroke-dasharray="140 1000">
+    <animate attributeName="stroke-dashoffset" values="0;-1140" dur="7s" repeatCount="indefinite"/>
   </path>
 
-  <!-- 1. Headline Creed Slogan -->
-  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" text-anchor="middle">
-    <text x="600" y="56" fill="#F0FDF4" font-size="14.5" font-weight="700" letter-spacing="3.2">IDEAS INTO SYSTEMS. SYSTEMS INTO IMPACT.</text>
-  </g>
-
-  <!-- 2. Interactive Contact Block (Email & LinkedIn) -->
-  <g>
-    <!-- EMAIL BLOCK (Left) -->
+  <!-- Single Elegant Row: Email | Slogan | LinkedIn -->
+  <g transform="translate(600, 42)">
+    <!-- 1. Email (Left) -->
     <a href="mailto:swastiktawate.work@gmail.com" target="_blank" style="cursor: pointer;">
-      <!-- Email Icon -->
-      <g transform="translate(305, 89)">
-        <rect x="-10" y="-7" width="20" height="14" rx="2" fill="#0C2017" stroke="#34D399" stroke-width="1.4"/>
-        <path d="M -10 -5 L 0 2 L 10 -5" fill="none" stroke="#6EE7B7" stroke-width="1.4"/>
+      <g transform="translate(-480, 0)">
+        <!-- Envelope Icon -->
+        <rect x="0" y="-8" width="16" height="11" rx="1.5" fill="#0C2017" stroke="#34D399" stroke-width="1.2"/>
+        <path d="M 0 -6 L 8 -1 L 16 -6" fill="none" stroke="#6EE7B7" stroke-width="1.2"/>
+        <text x="24" y="1" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="11.5" font-weight="600" letter-spacing="0.4">swastiktawate.work@gmail.com</text>
       </g>
-      <!-- Email Text -->
-      <text x="323" y="93.5" fill="#A7F3D0" font-family="'Consolas', 'Courier New', monospace" font-size="13" font-weight="600" letter-spacing="0.5">swastiktawate.work@gmail.com</text>
     </a>
 
-    <!-- Center Separator Dot -->
-    <circle cx="585" cy="89" r="2.5" fill="#34D399" opacity="0.6"/>
+    <!-- Center Separator -->
+    <circle cx="-190" cy="-2" r="2" fill="#34D399" opacity="0.6"/>
 
-    <!-- LINKEDIN BLOCK (Right) -->
+    <!-- 2. Slogan (Center) -->
+    <text x="0" y="1.5" text-anchor="middle" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2">IDEAS INTO SYSTEMS. SYSTEMS INTO IMPACT.</text>
+
+    <!-- Center Separator -->
+    <circle cx="190" cy="-2" r="2" fill="#34D399" opacity="0.6"/>
+
+    <!-- 3. LinkedIn (Right) -->
     <a href="https://www.linkedin.com/in/swastiktawate" target="_blank" style="cursor: pointer;">
-      <!-- LinkedIn Icon -->
-      <g transform="translate(635, 89)">
-        <rect x="-9" y="-9" width="18" height="18" rx="3.5" fill="#0C2017" stroke="#34D399" stroke-width="1.4"/>
-        <text x="0" y="3.5" text-anchor="middle" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="11" font-weight="800">in</text>
+      <g transform="translate(230, 0)">
+        <!-- LinkedIn Badge Icon -->
+        <rect x="0" y="-9" width="15" height="15" rx="2.5" fill="#0C2017" stroke="#34D399" stroke-width="1.2"/>
+        <text x="7.5" y="2.5" text-anchor="middle" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="9" font-weight="800">in</text>
+        <text x="22" y="1" fill="#A7F3D0" font-family="'Consolas', monospace" font-size="11.5" font-weight="600" letter-spacing="0.4">linkedin.com/in/swastiktawate</text>
       </g>
-      <!-- LinkedIn Text -->
-      <text x="653" y="93.5" fill="#A7F3D0" font-family="'Consolas', 'Courier New', monospace" font-size="13" font-weight="600" letter-spacing="0.5">linkedin.com/in/swastiktawate</text>
     </a>
-  </g>
-
-  <!-- 3. Bottom Signature Line -->
-  <g font-family="'Consolas', 'Courier New', monospace" text-anchor="middle">
-    <text x="600" y="127" fill="#34D399" font-size="10.5" letter-spacing="2.2" fill-opacity="0.85">SWASTIK TAWATE · AUTOMATION &amp; ROBOTICS // AI/ML · 2026</text>
-  </g>
-
-  <!-- Corner Accent Markers -->
-  <g stroke="#34D399" stroke-opacity="0.4" stroke-width="1.2" fill="none">
-    <path d="M 18 28 L 18 16 L 30 16"/>
-    <path d="M 1170 16 L 1182 16 L 1182 28"/>
-    <path d="M 18 122 L 18 134 L 30 134"/>
-    <path d="M 1170 134 L 1182 134 L 1182 122"/>
   </g>
 </svg>
