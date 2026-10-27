@@ -23,30 +23,25 @@ From architecting finite-state machine firmware on microcontrollers to designing
 
 ---
 
-## 🛠️ Technical Toolkit
-
-<div align="center">
-
-| Domain | Verified Technologies & Frameworks |
-| :--- | :--- |
-| **Programming Languages** | `Python` · `C/C++` · `HTML5 / CSS3` · `SQL` · `JavaScript` · `TypeScript` |
-| **Frameworks & APIs** | `React` · `FastAPI` · `Google Gemini API` · `Google Apps Script` |
-| **Robotics & Embedded Systems** | `ESP32` · `I²C Communication` · `VL53L1X Time-of-Flight (ToF)` · `Ultrasonic Sensors` · `MATLAB` |
-| **Tools & Platforms** | `Git` · `GitHub` · `Google Antigravity` · `Google Sheets` |
-| **Design & Prototyping** | `UI/UX Prototyping` · `Digital Graphics` · `Information Architecture` |
-
-</div>
+## ⚡ Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-0E1714?style=flat-square&logo=python&logoColor=34D399" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-0E1714?style=flat-square&logo=cplusplus&logoColor=34D399" alt="C++" />
-  <img src="https://img.shields.io/badge/React-0E1714?style=flat-square&logo=react&logoColor=34D399" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-0E1714?style=flat-square&logo=typescript&logoColor=34D399" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/FastAPI-0E1714?style=flat-square&logo=fastapi&logoColor=34D399" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Google_Gemini_API-0E1714?style=flat-square&logo=google&logoColor=34D399" alt="Google Gemini" />
-  <img src="https://img.shields.io/badge/ESP32-0E1714?style=flat-square&logo=espressif&logoColor=34D399" alt="ESP32" />
-  <img src="https://img.shields.io/badge/MATLAB-0E1714?style=flat-square&logo=mathworks&logoColor=34D399" alt="MATLAB" />
-  <img src="https://img.shields.io/badge/Git-0E1714?style=flat-square&logo=git&logoColor=34D399" alt="Git" />
+  <img src="./swastik-tech-stack.svg" width="100%" alt="Swastik Tawate — Verified Tech Stack" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=python&logoColor=34D399" alt="Python" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=cplusplus&logoColor=34D399" alt="C++" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=react&logoColor=34D399" alt="React" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=typescript&logoColor=34D399" alt="TypeScript" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=fastapi&logoColor=34D399" alt="FastAPI" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=google&logoColor=34D399" alt="Google Gemini" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=espressif&logoColor=34D399" alt="ESP32" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=mathworks&logoColor=34D399" alt="MATLAB" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=git&logoColor=34D399" alt="Git" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=github&logoColor=34D399" alt="GitHub" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=html5&logoColor=34D399" alt="HTML5" height="26" />
+  <img src="https://img.shields.io/badge/-0E1714?style=flat-square&logo=sqlite&logoColor=34D399" alt="SQL" height="26" />
 </p>
 
 ---
