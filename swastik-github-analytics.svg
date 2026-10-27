@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="135" viewBox="0 0 1200 135" role="img" aria-labelledby="gaTitle gaDesc">
-  <title id="gaTitle">Swastik Tawate — GitHub Analytics</title>
-  <desc id="gaDesc">Compact verified telemetry dashboard displaying total repositories, contributions, merged pull requests, active contribution streak, and stargazers in a graphite and emerald green theme.</desc>
+  <title id="gaTitle">GitHub Analytics Telemetry &#8212; Swastik Tawate</title>
+  <desc id="gaDesc">Compact telemetry metric display with repositories, contributions, merged pull requests, active streak, and stars.</desc>
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="gaBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -90,17 +90,17 @@
       <circle cx="4" cy="5" r="2.8" fill="#A7F3D0"/>
     </g>
     <!-- Value -->
-    <text x="50" y="38" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">57+</text>
+    <text x="50" y="38" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">63</text>
     <!-- Labels -->
     <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">CONTRIBUTIONS</text>
     <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Yearly Activity</text>
   </g>
 
-  <!-- CARD 3: MERGED PRS -->
+  <!-- CARD 3: TOTAL MERGED PULL REQUESTS -->
   <g transform="translate(502, 44)">
     <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
     <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
-    <!-- Icon -->
+    <!-- PR Merge Icon -->
     <g transform="translate(26, 38)" stroke="#34D399" stroke-width="1.6" fill="none">
       <circle cx="-7" cy="-5" r="2.5" fill="#A7F3D0"/>
       <circle cx="-7" cy="6" r="2.5"/>
@@ -111,15 +111,15 @@
     <!-- Value -->
     <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">8</text>
     <!-- Labels -->
-    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">MERGED PRS</text>
-    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Merged to Main</text>
+    <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="8.5" font-weight="700" letter-spacing="0.8">TOTAL MERGED PRS</text>
+    <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Pull Requests Merged</text>
   </g>
 
   <!-- CARD 4: CONTRIBUTION STREAK -->
   <g transform="translate(723, 44)">
     <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
     <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
-    <!-- Crisp Vector Flame -->
+    <!-- Crisp Vector Flame (Zero Blur Filter) -->
     <g transform="translate(26, 36)">
       <path d="M 0 11 C 6 11 10 7 10 1.5 C 10 -3 7.5 -6 5 -9 C 4.5 -6 2.5 -4 1 -3 C 1 -5.5 0.5 -9 -2 -12 C -3 -8 -6.5 -4.5 -6.5 -1 C -6.5 0.5 -5.5 2 -3.5 3 C -5.5 4 -6.5 6 -6.5 7.5 C -6.5 9.5 -3.5 11 0 11 Z" fill="#34D399" stroke="#10B981" stroke-width="0.7"/>
       <path d="M 0 9 C 3 9 5 7 5 4 C 5 1.5 3.5 0 2.5 -1 C 1.8 0.5 0.8 1.5 0 2 C 0 1 -0.5 -0.5 -1.5 -2 C -2.2 -0.5 -3 1 -3 3.5 C -3 6.5 -1.5 9 0 9 Z" fill="#F0FDF4"/>
@@ -135,7 +135,7 @@
   <g transform="translate(944, 44)">
     <rect width="196" height="76" rx="10" fill="url(#gaCardBg)" stroke="url(#gaCardBorder)" stroke-width="1.2"/>
     <circle cx="180" cy="14" r="2.5" fill="#34D399" opacity="0.6"/>
-    <!-- Crisp Vector Star -->
+    <!-- Crisp Vector 5-Point Star (Zero Blur Filter) -->
     <g transform="translate(26, 36)">
       <polygon points="0,-11 3.2,-3.5 11,-2.7 5.2,2.5 6.8,10.2 0,6.2 -6.8,10.2 -5.2,2.5 -11,-2.7 -3.2,-3.5" fill="#34D399" stroke="#6EE7B7" stroke-width="0.9"/>
       <polygon points="0,-6 1.7,-1.8 6,-1.4 2.8,1.4 3.7,5.5 0,3.3 -3.7,5.5 -2.8,1.4 -6,-1.4 -1.7,-1.8" fill="#F0FDF4"/>
