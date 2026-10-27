@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="footTitle footDesc">
+  <title id="footTitle">Keep Building — Swastik Tawate</title>
+  <desc id="footDesc">Minimal graphite and emerald green footer featuring an animated kinetic pulse line, technical micro-grid, and signature tagline.</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="gemFootBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D0B"/>
+      <stop offset="50%" stop-color="#0E1714"/>
+      <stop offset="100%" stop-color="#06281D"/>
+    </linearGradient>
+
+    <!-- Kinetic Beam Gradient -->
+    <linearGradient id="gemFootGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#34D399" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A7F3D0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#34D399" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Fine Micro Grid -->
+    <pattern id="gemFootGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#34D399" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+
+    <!-- Subtle Glow Filter -->
+    <filter id="gemFootBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="120" rx="16" fill="url(#gemFootBg)"/>
+  <rect width="1200" height="120" rx="16" fill="url(#gemFootGrid)"/>
+  <rect width="1200" height="120" rx="16" fill="none" stroke="#143628" stroke-width="1.2"/>
+
+  <!-- Top Kinetic Laser Line -->
+  <!-- Base track -->
+  <path d="M40 32 H1160" stroke="#0B3022" stroke-width="1.2"/>
+  <!-- Blurred Glowing Beam -->
+  <path d="M40 32 H1160" stroke="url(#gemFootGlow)" stroke-width="3" stroke-dasharray="180 1020" filter="url(#gemFootBlur)">
+    <animate attributeName="stroke-dashoffset" values="0;-1200" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <!-- Sharp Core Beam -->
+  <path d="M40 32 H1160" stroke="url(#gemFootGlow)" stroke-width="1.5" stroke-dasharray="180 1020">
+    <animate attributeName="stroke-dashoffset" values="0;-1200" dur="9s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Center Typography -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="68" fill="#F0FDF4" font-size="15" font-weight="700" letter-spacing="3.5">IDEAS INTO SYSTEMS. SYSTEMS INTO IMPACT.</text>
+    <text x="600" y="93" fill="#34D399" font-family="'Consolas', 'Courier New', monospace" font-size="10" letter-spacing="2.2" fill-opacity="0.85">SWASTIK TAWATE · VESIT ROBOTICS &amp; AUTOMATION · 2026</text>
+  </g>
+
+  <!-- Corner Accent Markers -->
+  <g stroke="#34D399" stroke-opacity="0.4" stroke-width="1" fill="none">
+    <path d="M 18 24 L 18 16 L 26 16"/>
+    <path d="M 1174 16 L 1182 16 L 1182 24"/>
+    <path d="M 18 96 L 18 104 L 26 104"/>
+    <path d="M 1174 104 L 1182 104 L 1182 96"/>
+  </g>
+</svg>
