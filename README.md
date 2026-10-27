@@ -104,5 +104,5 @@ Designed social media posts and digital graphics for multiple clients, refining 
 - [Email](mailto:swastiktawate.work@gmail.com)
 
 <p align="center">
-  <img src="./assets/swastik-footer.svg" width="100%" alt="Ideas into systems. Systems into impact." />
+  <img src="./swastik-footer.svg" width="100%" alt="Ideas into systems. Systems into impact." />
 </p>
