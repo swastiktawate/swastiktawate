@@ -72,7 +72,7 @@
       <line x1="-8" y1="-8" x2="-8" y2="6"/>
     </g>
     <!-- Value -->
-    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">17</text>
+    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">18</text>
     <!-- Labels -->
     <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">REPOSITORIES</text>
     <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Public Codebases</text>
@@ -90,7 +90,7 @@
       <circle cx="4" cy="5" r="2.8" fill="#A7F3D0"/>
     </g>
     <!-- Value -->
-    <text x="50" y="38" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">86</text>
+    <text x="50" y="38" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">89</text>
     <!-- Labels -->
     <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">CONTRIBUTIONS</text>
     <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Yearly Activity</text>
@@ -109,7 +109,7 @@
       <path d="M -7 -2.5 C -7 1 -4 1 2.5 1"/>
     </g>
     <!-- Value -->
-    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">10</text>
+    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">11</text>
     <!-- Labels -->
     <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="8.5" font-weight="700" letter-spacing="0.8">TOTAL MERGED PRS</text>
     <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Pull Requests Merged</text>
