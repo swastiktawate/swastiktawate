@@ -141,7 +141,7 @@
       <polygon points="0,-6 1.7,-1.8 6,-1.4 2.8,1.4 3.7,5.5 0,3.3 -3.7,5.5 -2.8,1.4 -6,-1.4 -1.7,-1.8" fill="#F0FDF4"/>
     </g>
     <!-- Value -->
-    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">6</text>
+    <text x="50" y="38" fill="#F0FDF4" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">8</text>
     <!-- Labels -->
     <text x="50" y="52" fill="#6EE7B7" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="1.2">STARS GOT</text>
     <text x="50" y="65" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8.5">Earned Stargazers</text>
