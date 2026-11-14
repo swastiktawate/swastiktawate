@@ -220,7 +220,7 @@
   <!-- STAT 2: CONTRIBUTIONS -->
   <!-- STAT: CONTRIBUTIONS -->
   <g transform="translate(321, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-contribs">295</text>
+    <text x="0" y="485" class="stat-num" id="stat-contribs">291</text>
     <text x="0" y="508" class="stat-lbl">CONTRIBUTIONS</text>
   </g>
 
@@ -234,7 +234,7 @@
   <!-- STAT 4: ACTIVE STREAK -->
   <!-- STAT: STREAK -->
   <g transform="translate(716, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-streak">29d</text>
+    <text x="0" y="485" class="stat-num" id="stat-streak">28d</text>
     <text x="0" y="508" class="stat-lbl">ACTIVE STREAK</text>
   </g>
 
