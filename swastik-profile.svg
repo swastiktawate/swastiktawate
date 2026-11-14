@@ -282,7 +282,7 @@
   <!-- STAT 2: CONTRIBUTIONS -->
   <!-- STAT: CONTRIBUTIONS -->
   <g transform="translate(321, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-contribs">302</text>
+    <text x="0" y="485" class="stat-num" id="stat-contribs">303</text>
     <text x="0" y="508" class="stat-lbl">CONTRIBUTIONS</text>
   </g>
 
