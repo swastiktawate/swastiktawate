@@ -29,7 +29,7 @@ jobs:
 
       - name: Fetch Live Metrics and Update SVG
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update_analytics.py
 
