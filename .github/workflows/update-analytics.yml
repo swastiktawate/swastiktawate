@@ -8,6 +8,8 @@ on:
     branches:
       - main
     paths-ignore:
+      - 'swastik-profile.svg'
+      - 'assets/swastik-profile.svg'
       - 'swastik-github-analytics.svg'
       - 'assets/swastik-github-analytics.svg'
 
@@ -35,5 +37,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add swastik-github-analytics.svg assets/swastik-github-analytics.svg
+          git add swastik-profile.svg assets/swastik-profile.svg swastik-github-analytics.svg assets/swastik-github-analytics.svg
           git diff --staged --quiet || (git commit -m "chore: auto-update live GitHub analytics metrics" && git pull --rebase origin main && git push)
