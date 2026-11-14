@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" width="1024" height="576" fill="none" role="img" aria-labelledby="profileTitle profileDesc">
+  <title id="profileTitle">Swastik Tawate &#8212; Automation &amp; Robotics, AI/ML, Systems</title>
+  <desc id="profileDesc">Engineering portfolio card featuring kinematics telemetry, toolkit, verified achievements, and live GitHub activity.</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1210"/>
+      <stop offset="50%" stop-color="#101412"/>
+      <stop offset="100%" stop-color="#0D110F"/>
+    </linearGradient>
+
+    <!-- Subtle Glow Filter -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Kinetic Laser Beam Gradient -->
+    <linearGradient id="laserBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#34D399" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#6EE7B7" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: 'Consolas', 'SF Mono', 'Courier New', monospace; }
+      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .stat-num { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 32px; font-weight: 800; fill: #EDE8DC; text-anchor: middle; letter-spacing: -0.5px; }
+      .stat-lbl { font-family: 'Consolas', 'SF Mono', 'Courier New', monospace; font-size: 9.5px; font-weight: 600; fill: #7E8E85; letter-spacing: 1.2px; text-anchor: middle; }
+      .pill-txt { font-family: 'Consolas', 'SF Mono', 'Courier New', monospace; font-size: 10.5px; font-weight: 600; fill: #EDE8DC; letter-spacing: 0.8px; text-anchor: middle; }
+      .link-item { text-decoration: none; cursor: pointer; }
+      .link-item:hover { opacity: 0.85; }
+    </style>
+  </defs>
+
+  <!-- ==================== BACKGROUND CARD ==================== -->
+  <rect width="1024" height="576" fill="url(#bgGrad)" rx="10"/>
+  <rect width="1024" height="576" fill="none" stroke="#1A261F" stroke-width="1.2" rx="10"/>
+
+  <!-- ==================== HEADER SECTION ==================== -->
+  <!-- Top Tagline Indicator -->
+  <rect x="42" y="32.5" width="8" height="8" fill="#34D399" rx="1.5">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="60" y="40" fill="#8E9E96" class="mono" font-size="11.5" font-weight="600" letter-spacing="1.5">AUTOMATION &amp; ROBOTICS / AI &amp; SYSTEMS</text>
+  <line x1="390" y1="36" x2="982" y2="36" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- Primary Headline Name -->
+  <text x="42" y="112" fill="#EDE8DC" class="sans" font-size="52" font-weight="900" letter-spacing="0.5">SWASTIK TAWATE</text>
+
+  <!-- Subtitle Line 1 -->
+  <text x="42" y="142" fill="#D6DDD8" class="sans" font-size="17" font-weight="600" letter-spacing="0.2">Automation &amp; Robotics &#183; AI/ML &#183; Systems</text>
+
+  <!-- Subtitle Line 2 -->
+  <text x="42" y="167" fill="#7E8E85" class="sans" font-size="13" font-weight="400">Undergraduate at VESIT Mumbai &#183; B.Tech in Automation &amp; Robotics</text>
+
+  <!-- Creed / Progress Bar Line -->
+  <rect x="42" y="191" width="54" height="4" rx="2" fill="url(#laserBeam)" filter="url(#softGlow)"/>
+  <text x="110" y="195.5" fill="#34D399" class="mono" font-size="11" font-weight="600" letter-spacing="1.8">PRECISION IN CODE. PURPOSE IN AUTOMATION.</text>
+  <line x1="468" y1="193" x2="982" y2="193" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- ==================== ORBITAL KINEMATICS TELEMETRY ==================== -->
+  <g transform="translate(840, 110)">
+    <!-- Radar Coordinate Axes -->
+    <line x1="-165" y1="0" x2="145" y2="0" stroke="#1C2E24" stroke-width="0.8" stroke-dasharray="3 4"/>
+    <line x1="0" y1="-85" x2="0" y2="85" stroke="#1C2E24" stroke-width="0.8" stroke-dasharray="3 4"/>
+
+    <!-- Concentric Tilted Orbits with Subtle Gyroscopic Motion -->
+    <!-- Orbit 1: Primary wide tilted orbit -->
+    <g transform="rotate(-22)">
+      <ellipse rx="140" ry="48" fill="none" stroke="#263B30" stroke-width="1"/>
+      <ellipse rx="140" ry="48" fill="none" stroke="#34D399" stroke-width="1.2" stroke-opacity="0.35" stroke-dasharray="24 160">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="40s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Top-left open satellite ring -->
+      <circle cx="-110" cy="-29" r="3.2" fill="#0E1210" stroke="#EDE8DC" stroke-width="1.2"/>
+    </g>
+
+    <!-- Orbit 2: Counter-tilted orbit -->
+    <g transform="rotate(18)">
+      <ellipse rx="110" ry="40" fill="none" stroke="#1E3327" stroke-width="1" stroke-dasharray="5 3"/>
+      <!-- Right open satellite ring -->
+      <circle cx="82" cy="-26" r="3.6" fill="#0E1210" stroke="#EDE8DC" stroke-width="1.2"/>
+    </g>
+
+    <!-- Orbit 3: Steep inner orbit -->
+    <g transform="rotate(-38)">
+      <ellipse rx="76" ry="28" fill="none" stroke="#2B4436" stroke-width="1"/>
+      <!-- Small green orbiting satellite -->
+      <circle cx="52" cy="20" r="2.2" fill="#34D399"/>
+    </g>
+
+    <!-- Orbit 4: Faint outer tracking ring -->
+    <g transform="rotate(34)">
+      <ellipse rx="148" ry="64" fill="none" stroke="#182A20" stroke-width="0.8"/>
+      <!-- Outer tracking node -->
+      <circle cx="-120" cy="38" r="2.8" fill="#0E1210" stroke="#34D399" stroke-width="1"/>
+    </g>
+
+    <!-- Center Celestial Body & Bloom -->
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#34D399" stroke-opacity="0.15" stroke-width="1"/>
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#34D399" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4.5" fill="#EDE8DC" filter="url(#softGlow)"/>
+
+    <!-- Subtle Crosshairs -->
+    <text x="-145" y="-42" fill="#3A5344" class="mono" font-size="12" text-anchor="middle">+</text>
+    <text x="125" y="62" fill="#3A5344" class="mono" font-size="12" text-anchor="middle">+</text>
+  </g>
+
+  <!-- ==================== 01 / TOOLKIT SECTION ==================== -->
+  <text x="42" y="221" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">
+    <tspan fill="#34D399">01 / </tspan><tspan fill="#EDE8DC">TOOLKIT</tspan>
+  </text>
+  <line x1="162" y1="217" x2="982" y2="217" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- 12 Toolkit Pills Row -->
+  <g transform="translate(0, 252)">
+    <!-- 1. PYTHON -->
+    <rect x="42" y="0" width="67" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="75.5" y="16.5" class="pill-txt">PYTHON</text>
+
+    <!-- 2. C / C++ -->
+    <rect x="119" y="0" width="72" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="155" y="16.5" class="pill-txt">C / C++</text>
+
+    <!-- 3. REACT -->
+    <rect x="201" y="0" width="65" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="233.5" y="16.5" class="pill-txt">REACT</text>
+
+    <!-- 4. TS / JS -->
+    <rect x="276" y="0" width="68" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="310" y="16.5" class="pill-txt">TS / JS</text>
+
+    <!-- 5. FASTAPI -->
+    <rect x="354" y="0" width="73" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="390.5" y="16.5" class="pill-txt">FASTAPI</text>
+
+    <!-- 6. GEMINI -->
+    <rect x="437" y="0" width="67" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="470.5" y="16.5" class="pill-txt">GEMINI</text>
+
+    <!-- 7. SQL -->
+    <rect x="514" y="0" width="53" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="540.5" y="16.5" class="pill-txt">SQL</text>
+
+    <!-- 8. ESP32 -->
+    <rect x="577" y="0" width="65" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="609.5" y="16.5" class="pill-txt">ESP32</text>
+
+    <!-- 9. ToF / I²C -->
+    <rect x="652" y="0" width="87" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="695.5" y="16.5" class="pill-txt">ToF / I&#178;C</text>
+
+    <!-- 10. MATLAB -->
+    <rect x="749" y="0" width="71" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="784.5" y="16.5" class="pill-txt">MATLAB</text>
+
+    <!-- 11. GIT -->
+    <rect x="830" y="0" width="53" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="856.5" y="16.5" class="pill-txt">GIT</text>
+
+    <!-- 12. GITHUB -->
+    <rect x="893" y="0" width="89" height="26" rx="6" fill="#111613" stroke="#203227" stroke-width="1"/>
+    <text x="937.5" y="16.5" class="pill-txt">GITHUB</text>
+  </g>
+
+  <!-- ==================== 02 / SELECTED HIGHLIGHTS SECTION ==================== -->
+  <text x="42" y="314" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">
+    <tspan fill="#34D399">02 / </tspan><tspan fill="#EDE8DC">SELECTED HIGHLIGHTS</tspan>
+  </text>
+  <line x1="272" y1="310" x2="982" y2="310" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- Vertical Divider Lines for Highlights -->
+  <line x1="338" y1="334" x2="338" y2="400" stroke="#1A261F" stroke-width="1"/>
+  <line x1="668" y1="334" x2="668" y2="400" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- Highlight 1: Syrus 7.0 -->
+  <g transform="translate(42, 332)">
+    <rect x="0" y="0" width="62" height="18" rx="3.5" fill="#0C1813" stroke="#34D399" stroke-width="0.9"/>
+    <text x="31" y="12.5" fill="#34D399" class="mono" font-size="8.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">FINALIST</text>
+    <text x="0" y="40" fill="#EDE8DC" class="sans" font-size="16.5" font-weight="700">Syrus 7.0 Hackathon</text>
+    <text x="0" y="60" fill="#7E8E85" class="sans" font-size="12">Competitive multi-round hackathon</text>
+  </g>
+
+  <!-- Highlight 2: ISTE-VESIT -->
+  <g transform="translate(378, 332)">
+    <rect x="0" y="0" width="62" height="18" rx="3.5" fill="#0C1813" stroke="#34D399" stroke-width="0.9"/>
+    <text x="31" y="12.5" fill="#34D399" class="mono" font-size="8.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">FINALIST</text>
+    <text x="0" y="40" fill="#EDE8DC" class="sans" font-size="16.5" font-weight="700">ISTE-VESIT Ideathon</text>
+    <text x="0" y="60" fill="#7E8E85" class="sans" font-size="12">Technical innovation &amp; defense</text>
+  </g>
+
+  <!-- Highlight 3: Yukti -->
+  <g transform="translate(708, 332)">
+    <rect x="0" y="0" width="146" height="18" rx="3.5" fill="#0C1813" stroke="#34D399" stroke-width="0.9"/>
+    <text x="73" y="12.5" fill="#34D399" class="mono" font-size="8.5" font-weight="700" letter-spacing="1" text-anchor="middle">SHORTLISTED / ONGOING</text>
+    <text x="0" y="40" fill="#EDE8DC" class="sans" font-size="16.5" font-weight="700">Yukti Hackathon + Ideathon</text>
+    <text x="0" y="60" fill="#7E8E85" class="sans" font-size="12">Shortlisted &amp; active participant</text>
+  </g>
+
+  <!-- ==================== 03 / GITHUB ACTIVITY SECTION ==================== -->
+  <text x="42" y="434" class="mono" font-size="12" font-weight="700" letter-spacing="1.5">
+    <tspan fill="#34D399">03 / </tspan><tspan fill="#EDE8DC">GITHUB ACTIVITY</tspan>
+  </text>
+  <line x1="230" y1="430" x2="982" y2="430" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- Vertical Divider Lines for Stats -->
+  <line x1="220" y1="456" x2="220" y2="512" stroke="#1A261F" stroke-width="1"/>
+  <line x1="422" y1="456" x2="422" y2="512" stroke="#1A261F" stroke-width="1"/>
+  <line x1="608" y1="456" x2="608" y2="512" stroke="#1A261F" stroke-width="1"/>
+  <line x1="825" y1="456" x2="825" y2="512" stroke="#1A261F" stroke-width="1"/>
+
+  <!-- STAT 1: REPOSITORIES -->
+  <!-- STAT: REPOSITORIES -->
+  <g transform="translate(131, 0)">
+    <text x="0" y="485" class="stat-num" id="stat-repos">29</text>
+    <text x="0" y="508" class="stat-lbl">REPOSITORIES</text>
+  </g>
+
+  <!-- STAT 2: CONTRIBUTIONS -->
+  <!-- STAT: CONTRIBUTIONS -->
+  <g transform="translate(321, 0)">
+    <text x="0" y="485" class="stat-num" id="stat-contribs">295</text>
+    <text x="0" y="508" class="stat-lbl">CONTRIBUTIONS</text>
+  </g>
+
+  <!-- STAT 3: MERGED PRS -->
+  <!-- STAT: MERGED_PRS -->
+  <g transform="translate(515, 0)">
+    <text x="0" y="485" class="stat-num" id="stat-merged-prs">34</text>
+    <text x="0" y="508" class="stat-lbl">MERGED PRs</text>
+  </g>
+
+  <!-- STAT 4: ACTIVE STREAK -->
+  <!-- STAT: STREAK -->
+  <g transform="translate(716, 0)">
+    <text x="0" y="485" class="stat-num" id="stat-streak">29d</text>
+    <text x="0" y="508" class="stat-lbl">ACTIVE STREAK</text>
+  </g>
+
+  <!-- STAT 5: STARS -->
+  <!-- STAT: STARS -->
+  <g transform="translate(903, 0)">
+    <text x="0" y="485" class="stat-num" id="stat-stars">16</text>
+    <text x="0" y="508" class="stat-lbl">STARS</text>
+  </g>
+
+  <!-- ==================== FOOTER SECTION ==================== -->
+  <!-- Email Link (Left) -->
+  <a href="mailto:swastiktawate.work@gmail.com" target="_blank" class="link-item">
+    <rect x="42" y="534" width="16" height="11" rx="1.5" fill="none" stroke="#34D399" stroke-width="1.2"/>
+    <path d="M 42 536 L 50 541 L 58 536" fill="none" stroke="#34D399" stroke-width="1.2"/>
+    <text x="66" y="543.5" fill="#8E9E96" class="mono" font-size="11" font-weight="500" letter-spacing="0.2">swastiktawate.work@gmail.com</text>
+  </a>
+
+  <!-- Slogan (Center) -->
+  <text x="512" y="543.5" fill="#7E8E85" class="mono" font-size="10.5" font-weight="600" letter-spacing="2" text-anchor="middle">IDEAS INTO SYSTEMS. SYSTEMS INTO IMPACT.</text>
+
+  <!-- LinkedIn Link (Right) -->
+  <a href="https://www.linkedin.com/in/swastiktawate" target="_blank" class="link-item">
+    <rect x="792" y="532.5" width="14" height="14" rx="2.5" fill="none" stroke="#34D399" stroke-width="1.2"/>
+    <text x="799" y="542.5" fill="#34D399" class="sans" font-size="9" font-weight="800" text-anchor="middle">in</text>
+    <text x="814" y="543.5" fill="#8E9E96" class="mono" font-size="11" font-weight="500" letter-spacing="0.2">linkedin.com/in/swastiktawate</text>
+  </a>
+</svg>
