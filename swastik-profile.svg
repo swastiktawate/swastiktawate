@@ -282,21 +282,21 @@
   <!-- STAT 2: CONTRIBUTIONS -->
   <!-- STAT: CONTRIBUTIONS -->
   <g transform="translate(321, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-contribs">315</text>
+    <text x="0" y="485" class="stat-num" id="stat-contribs">319</text>
     <text x="0" y="508" class="stat-lbl">CONTRIBUTIONS</text>
   </g>
 
   <!-- STAT 3: MERGED PRS -->
   <!-- STAT: MERGED_PRS -->
   <g transform="translate(515, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-merged-prs">37</text>
+    <text x="0" y="485" class="stat-num" id="stat-merged-prs">38</text>
     <text x="0" y="508" class="stat-lbl">MERGED PRs</text>
   </g>
 
   <!-- STAT 4: ACTIVE STREAK -->
   <!-- STAT: STREAK -->
   <g transform="translate(716, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-streak">30d</text>
+    <text x="0" y="485" class="stat-num" id="stat-streak">31d</text>
     <text x="0" y="508" class="stat-lbl">ACTIVE STREAK</text>
   </g>
 
