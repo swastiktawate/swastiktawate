@@ -282,14 +282,14 @@
   <!-- STAT 2: CONTRIBUTIONS -->
   <!-- STAT: CONTRIBUTIONS -->
   <g transform="translate(321, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-contribs">338</text>
+    <text x="0" y="485" class="stat-num" id="stat-contribs">339</text>
     <text x="0" y="508" class="stat-lbl">CONTRIBUTIONS</text>
   </g>
 
   <!-- STAT 3: MERGED PRS -->
   <!-- STAT: MERGED_PRS -->
   <g transform="translate(515, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-merged-prs">42</text>
+    <text x="0" y="485" class="stat-num" id="stat-merged-prs">43</text>
     <text x="0" y="508" class="stat-lbl">MERGED PRs</text>
   </g>
 
