@@ -275,14 +275,14 @@
   <!-- STAT 1: REPOSITORIES -->
   <!-- STAT: REPOSITORIES -->
   <g transform="translate(131, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-repos">37</text>
+    <text x="0" y="485" class="stat-num" id="stat-repos">38</text>
     <text x="0" y="508" class="stat-lbl">REPOSITORIES</text>
   </g>
 
   <!-- STAT 2: CONTRIBUTIONS -->
   <!-- STAT: CONTRIBUTIONS -->
   <g transform="translate(321, 0)">
-    <text x="0" y="485" class="stat-num" id="stat-contribs">356</text>
+    <text x="0" y="485" class="stat-num" id="stat-contribs">368</text>
     <text x="0" y="508" class="stat-lbl">CONTRIBUTIONS</text>
   </g>
 
